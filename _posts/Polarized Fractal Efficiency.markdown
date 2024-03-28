@@ -5,7 +5,7 @@ date:   2021-11-21 10:09:10 +0000
 categories: jekyll update
 ---
 In finance, the Polarised Fractal Efficiency (PFE) indicator was developed byHans Hannula. This measure is becoming increasingly popular and is beingadopted in many financial models.
-I often use it for stock price predictions in my models along with otherindicators. I explain the theory and usage of PFE below and also present thePython code for calculating it. Before looking at it, it might be helpful tounderstand what are fractals.
+I often use it for stock price predictions in my models along with otherindicators. I explain the theory and usage of PFE below and also present thePython code for calculating it. Before looking at it, it might be helpful tounderstand what are fractals. 
 
 What are Fractals?
 Fractal geometry describes systems in which increasing detail is revealed byincreasing magnification, and the newly revealed structure looks similar to whatone can see at lower magnification. Concepts of this type were defined as purelymathematical entities long ago by Poincare, Hausdorff and others. However itwas Mandelbrot who realised that many familiar structures in nature could bedescribed with these methods.
