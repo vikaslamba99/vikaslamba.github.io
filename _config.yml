@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: VL Quantitative Views
+title: Quantitative Views
 email: vlamb@duck.com
 description: >- # this means to ignore newlines until "baseurl:"
   Any technology distinguishable from magic is insufficiently advanced.
@@ -30,9 +30,22 @@ github_username:  vikaslamba99
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 ignore_theme_config: true
 
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
