@@ -22,8 +22,8 @@ Collecting and processing the information necessary for complex decision-making 
 
 
 References:
-1. [Kitces. (2017)][Separating-Risk-Tolerance-From-Risk-Capacity] 
-2. [Moody’s Analytics. (2018)][Robo-advisors-A-Buzzword-or-Future-of-Investing]. 
+1. [Kitces (2017)][Separating-Risk-Tolerance-From-Risk-Capacity] 
+2. [Moodys Analytics/ Acuity Knowledge Partners (2018)][Robo-advisors-A-Buzzword-or-Future-of-Investing]. 
 
 [Separating-Risk-Tolerance-From-Risk-Capacity]: https://www.kitces.com/blog/separating-risk-tolerance-from-risk-capacity-just-because-you-can-afford-to-take-risk-doesnt-mean-you-should/
 [Robo-advisors-A-Buzzword-or-Future-of-Investing]:   https://www.acuitykp.com/blog/robo-advisors-a-buzzword-or-the-future-of-investing/
