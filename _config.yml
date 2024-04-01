@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Quantitative Views
-author: Vikas Lamba
+author: For any queries, comments or suggestions, please contact me
 email: vlamb@duck.com
 description: >- # this means to ignore newlines until "baseurl:"
   Any technology distinguishable from magic is insufficiently advanced.
