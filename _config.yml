@@ -54,7 +54,7 @@ minima:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+ exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -63,7 +63,7 @@ minima:
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
-#   - vendor/gems/
+   - vendor/gems/
 #   - vendor/ruby/
 
   # Generate social links in footer.
