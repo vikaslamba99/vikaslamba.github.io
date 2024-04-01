@@ -10,9 +10,11 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Trading and Economy" }}</h2>
-    <div class="footer-col">
-      <p>Works in progress and views on Algorithmic Trading, Portfolio and Risk Management.</p>
+  <!--  
+  <h2 class="post-list-heading">{{ page.list_title | default: "Trading and Economy" }}</h2>
+  -->
+    <div class="footer-col-wrapper">
+      <p>Views and Works in progress on Algorithmic Trading, Portfolio and Risk Management.</p>
     </div>
     <ul class="post-list">
       {%- for post in site.posts -%}
