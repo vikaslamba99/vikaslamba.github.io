@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UK’s Fiscal Tightening and its Burdensome Impact"
-date:   2021-11-21 10:09:10 +0000
+date:   2023-03-22 10:09:10 +0000
 categories: jekyll update
 ---
 A forecast of the British economy in the short to medium term, by anyone's standards, would be bleak. The inflation, energy crisis, and Brexit have placed the country’s economy in an unenviable position. Last week, the government announced new measures to fill the budget deficit with a £55 billion fiscal squeeze as the inflation reached a 41-year high at 11.1 percent.
