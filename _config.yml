@@ -58,12 +58,12 @@ minima:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-   - Gemfile
+#   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
-   - vendor/gems/
+#   - vendor/gems/
 #   - vendor/ruby/
 
   # Generate social links in footer.
