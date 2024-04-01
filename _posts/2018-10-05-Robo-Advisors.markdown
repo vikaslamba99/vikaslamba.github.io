@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Robo Advisors – Rise or Demise?"
-date:   2018-10-15 14:09:10 +0000
+date:   2018-10-05 14:09:10 +0000
 categories: jekyll update
 ---
 Wealth management has typically only been for those with higher-than-average income, with fees for these services being prohibitive for the generalpopulation.
