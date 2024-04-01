@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Winning with Quantitative Trading"
-date:   2024-04-01 15:18:10 +0000
+date:   2024-03-31 15:18:10 +0000
 categories: jekyll update
 ---
 Quantitative Algorithmic trading is the computerised execution of the financialinstruments following the trading strategies that are developed using advancedmathematical models. Quantitative methods are used for carrying out theresearch, analysing the historical data and using the complex mathematical andstatistical models to find the trading opportunities that are profitable.
