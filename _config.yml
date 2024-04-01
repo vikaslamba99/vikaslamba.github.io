@@ -32,4 +32,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   
+# Set to `true` to show excerpts on the homepage.
+show_excerpts: true
 # Build settings
