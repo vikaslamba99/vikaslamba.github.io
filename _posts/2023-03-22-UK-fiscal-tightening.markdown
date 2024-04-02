@@ -18,17 +18,10 @@ Brexit, the energy crisis led by the Russia-Ukraine war, and rising inflation ha
  
 So far in 2022, the Bank of England has consistently raised interest rates in tandem with the Federal Reserve, and in the latest move, they have mirrored the Fed’s 0.75 percentage-point rise in September. This rises in the interest rate, totalling 2.75% since the beginning of 2022 has left the public finances more vulnerable to future shocks or swings in market sentiment. If any extra spending by the government is financed through higher borrowing, the Bank of England would react further.
  
-As a consequence of the squeeze on real incomes due to high inflation, rise in interest rates, and fall in investments the British economy has been tipped into recession. But the increased rates do not just pinch borrowers, they also affect the government itself. For over a decade since the global financial crisis, government debt interest payments fell steadily which was the result of low interest rates as well as Quantitative Easing (QE). But now, with the rising rates, the debt interest cost will more than double this year to reach £120.4 billion or 4.8 percent of GDP, as compared to last year. An interesting comparison shows that the similar debt costs for the US national debt are projected to be $399 billion (£338 billion) for 2022, but that is only 1.6% of the US GDP.
+As a consequence of the squeeze on real incomes due to high inflation, rise in interest rates,and fall in investments the British economy has been tipped into recession. But the increased rates do not just pinch borrowers, they also affect the government itself. For over a decade since the global financial crisis, government debt interest payments fell steadily which was the result of low interest rates as well as Quantitative Easing (QE). But now, with the rising rates, the debt interest cost will more than double this year to reach £120.4 billion or 4.8 percent of GDP, as compared to last year. An interesting comparison shows that the similar debt costs for the US national debt are projected to be $399 billion (£338 billion) for 2022, but that is only 1.6% of the US GDP.
 
 The much-promised fruits of Brexit might crystallize in the long term but in the short to medium term, this economic fragmentation only seems to have brought sluggish growth for the economy, recession, and a squeeze on real incomes. The negotiations with the EU and new trade deals with the important economies will be long and arduous as we have seen in recent years. It would not be unfair to suggest that the UK economy and the markets are currently on a sticky wicket and the autumn statement by the chancellor is only a first step to avoid the economy falling into entropy.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
 References:
 1. [Office for Budget Responsibility][Office-for-Budget-Responsibility] 
