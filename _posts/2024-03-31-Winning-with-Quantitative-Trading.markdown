@@ -36,7 +36,7 @@ A word of caution here is that a high performance in back-testing does in no way
 
 Below is a graph showing the results of an overlapping momentum strategy,where the returns on a portfolio comprising of a maximum of 10 assets at any point are compared to benchmark performance for S&P 100 index, over a period of 4 years from Feb, 2016 to Jan, 2020. The performance of the assets is tracked monthly and, where required, leads to portfolio turnover. Although, it appears that the strategy was quite effective and provided a decent return of over 200% over the tenure but still, apart from other factors that need to be reviewed, including maximum drawdown and the Sharpe ratio, the 4 years period for back-testing is quite small.
 
-![Momentum Strategy Returns](../../_posts/images/mom_returns.png "Momentum Strategy Returns")
+![Momentum Strategy Returns](/../_posts/images/mom_returns.png "Momentum Strategy Returns")
 
 Jegadeesh and Titman (1993) documented how strategies of buying recent stock winners and selling recent losers generated significantly higher near-term returns than the market. But, the above strategy presented as example has purely taken long position on the momentum stocks.
 
