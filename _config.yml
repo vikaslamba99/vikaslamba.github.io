@@ -28,6 +28,8 @@ url: https://vikaslamba99.github.io
 github_username:  vikaslamba99
 linkedin_username:  vikas-lamba-frm-24413644
 
+runs:
+  using: 'node20'
 
 # Build settings
 theme: minima
