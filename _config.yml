@@ -30,12 +30,19 @@ site:
     github_username:  vikaslamba99
     linkedin_username:  vikas-lamba-frm-24413644
 
-social:
-    github: vikaslamba99
-    github_username:  vikaslamba99
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark
+  date_format: "%Y-%m-%d %H:%M"
+  social_links:
+    github: vikaslamba99
+    linkedin: taylor-talkinton
+    gitlab:
+      - username: The-EG
+        instance: gitlab.com
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
