@@ -38,6 +38,8 @@ Below is a graph showing the results of an overlapping momentum strategy,where t
 
 ![Momentum Strategy Returns](/assets/mom_returns.png "Momentum Strategy Returns")
 
+<img src="/assets/mom_returns.png" alt="">
+
 Jegadeesh and Titman (1993) documented how strategies of buying recent stock winners and selling recent losers generated significantly higher near-term returns than the market. But, the above strategy presented as example has purely taken long position on the momentum stocks.
 
 We know that momentum exists, but why should such a strong return pattern such as momentum persist?
