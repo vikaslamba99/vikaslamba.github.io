@@ -14,7 +14,7 @@ Artificial Intelligence and machine learning is now beginning to be effectivelyb
 
 Artificial Intelligence, civilization’s newest technology, when used to its truepotential can and will better explain the solutions to the most complex human,social, economic problems as well as the scientific advances to a domain wheresuch problems do not exist.
 Several tech trends are currently driving the latest technology revolution,including:
- <ul class="footer-col-wrapper">
+ <ul>
  
     <li>Big Data</li>
     <li>Artifi cial Intelligence and machine learning</li>
