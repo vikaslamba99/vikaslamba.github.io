@@ -17,9 +17,10 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 -->
-
+<!---
 Vikas Lamba is a Financial Risk Mnagement professional possessing deep knowledge & experience of financial industry. 
 
 With extensive management & technology experience as well as mathematical skills, significant programming and Machine Learning experience, and as a creative and innovative thinker Vikas has often challenged established processes in finance, data and computational sciences - while working with renowned global financial institutions, such as HSBC, Credit Suisse, JP Morgan Chase, UBS, and Man Investments.
 
 Vikas is a certified Financial Risk Manager (GARP), holds a Masters degree in Finance and Investments from City University of London and has also studied Algorithmic Trading from Said Business School, University of Oxford.
+-->
