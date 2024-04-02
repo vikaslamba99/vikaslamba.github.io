@@ -37,7 +37,7 @@ theme: minima
 minima:
   skin: dark
   date_format: "%Y-%m-%d %H:%M"
-  social_links:
+  site:
     github: vikaslamba99
     linkedin: taylor-talkinton
     gitlab:
