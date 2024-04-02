@@ -46,8 +46,9 @@ As an investment strategy, it stands almost in complete denial of, the “effici
 
 EMH, of course, is the argument that has made index (or “passive”) stockinvesting so incredibly popular over the last 25 years: You can’t outsmart the market, so just own the whole thing. Yet various styles of momentum investing continue to reward their investor practitioners with above-average returns.
 
+<h4>
 Why is quantitative trading becoming increasingly important?
-
+</h4>
 The combination of the behavioural bias and market frictions constantly results in mispriced assets. This arbitrage can often be short lived and if not taken advantage of in short space of time, it is simply opportunity lost. And since humans are flawed decision makers under duress, the trading job is best performed by algorithms that are trained using deep learning and gargantuan sets of data.
 
 The race to higher alpha in most firms often boils down to getting hands on the next valuable source of data. There is a lot of tactical asset allocation alpha to derive from macro-economic and price-volume data. This is exactly why most quantitative fund managers believe that data science is the only way to build a great portfolio management firm today. But building a data science firm needs a sizable investment. Most of the investments are front loaded and cannot be deferred to a time when the fund has raised hundreds of millions of dollars already. Hence an institutional investor needs to think like a venture capital firm and be prepared to invest in the GP of promising managers.
