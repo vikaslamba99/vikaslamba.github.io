@@ -22,7 +22,8 @@ Collecting and processing the information necessary for complex decision-making 
 
 This is where, with advanced artificial intelligence, machine learning and more cognitive computing employed, the robo-advisors of future will have an advantage as the decision making is far more complex.
 
-$$ x = y^2 $$
+$$ x = y^2 $$ Test
+
 $$ x = y^2 $$
 
 References:
