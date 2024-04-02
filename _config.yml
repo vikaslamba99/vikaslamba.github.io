@@ -24,25 +24,13 @@ email: vlamb@duck.com
 description: >- # this means to ignore newlines until "baseurl:"
   Any technology distinguishable from magic is insufficiently advanced.
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: https://vikaslamba99.github.io
-# github_username:  vikaslamba99
-site:
-    github_username:  vikaslamba99
-    linkedin_username:  vikas-lamba-frm-24413644
+url: https://vikaslamba99.github.io
+github_username:  vikaslamba99
+linkedin_username:  vikas-lamba-frm-24413644
 
 
 # Build settings
 theme: minima
-
-minima:
-  skin: dark
-  date_format: "%Y-%m-%d %H:%M"
-  site:
-    github: vikaslamba99
-    linkedin: taylor-talkinton
-    gitlab:
-      - username: The-EG
-        instance: gitlab.com
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
