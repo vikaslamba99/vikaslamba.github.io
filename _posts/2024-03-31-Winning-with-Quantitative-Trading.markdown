@@ -34,9 +34,9 @@ One can never over stress the importance of rigorous back-testing, free from any
 
 A word of caution here is that a high performance in back-testing does in no way guarantee the same results in future. Back-testing is a kind of backward-looking methodology by its very nature and there is no guarantee that the future market will behave like the past. Despite this, the back-testing can still give us enough useful information to understand why one strategy works well and the other doesn’t, depending on various market situations which occurred in history.
 
-Below is a graph showing the results of an overlapping momentum strategy,where the returns on a portfolio comprising of a maximum of 10 assets at any point are compared to benchmark performance for S&P 100 index, over aperiod of 4 years from Feb, 2016 to Jan, 2020. The performance of the assets is tracked monthly and, where required, leads to portfolio turnover. Although, it appears that the strategy was quite effective and provided a decent return of over 200% over the tenure but still, apart from other factors that need to be reviewed, including maximum drawdown and the Sharpe ratio, the 4 years period for back-testing is quite small.
+Below is a graph showing the results of an overlapping momentum strategy,where the returns on a portfolio comprising of a maximum of 10 assets at any point are compared to benchmark performance for S&P 100 index, over a period of 4 years from Feb, 2016 to Jan, 2020. The performance of the assets is tracked monthly and, where required, leads to portfolio turnover. Although, it appears that the strategy was quite effective and provided a decent return of over 200% over the tenure but still, apart from other factors that need to be reviewed, including maximum drawdown and the Sharpe ratio, the 4 years period for back-testing is quite small.
 
-![Momentum Strategy Returns](/_posts/images/mom_returns.png "Screenshot")
+![Momentum Strategy Returns](/_posts/images/mom_returns.png "Momentum Strategy Returns")
 
 Jegadeesh and Titman (1993) documented how strategies of buying recent stock winners and selling recent losers generated significantly higher near-term returns than the market. But, the above strategy presented as example has purely taken long position on the momentum stocks.
 
