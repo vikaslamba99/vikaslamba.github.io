@@ -2,7 +2,8 @@
 layout: post
 title:  "Quantum Supremacy"
 date:   2023-05-10 10:10:10 +0000
-categories: jekyll update
+categories: Algorithmic-Trading
+permalink: Quantum-Supremacy
 ---
 The use of of scalable machine learning and analytics systems across the mostcritical government as well as commercial institutions in the world to solvesome of the hardest (or not, depending on how you see it) analytical problemsof our times can be more easily seen now a days.
 
