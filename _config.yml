@@ -46,5 +46,5 @@ plugins:
 # Set to `true` to show excerpts on the homepage.
 show_excerpts: true
 
-excerpt_ separator: <!--more-->
+excerpt_separator: <!--more-->
 # Build settings
