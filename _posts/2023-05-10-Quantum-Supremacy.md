@@ -5,7 +5,7 @@ date:   2023-05-10 10:10:10 +0000
 categories: Algorithmic-Trading
 permalink: Quantum-Supremacy
 ---
-The use of of scalable machine learning and analytics systems across the mostcritical government as well as commercial institutions in the world to solvesome of the hardest (or not, depending on how you see it) analytical problemsof our times can be more easily seen now a days.
+The use of of scalable machine learning and analytics systems across the mostcritical government as well as commercial institutions in the world to solvesome of the hardest (or not, depending on how you see it) analytical problemsof our times can be more easily seen now a days. <!--more-->
 
 This augmentation and empowerment of the decision making process is quiteevident to the finance professionals throughout the global financial system andnot just limited to the fin-tech world.
 
