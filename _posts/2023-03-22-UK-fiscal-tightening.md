@@ -5,7 +5,7 @@ date:   2023-03-22 10:09:10 +0000
 categories: Algorithmic-Trading
 permalink: Fiscal-Tightening
 ---
-A forecast of the British economy in the short to medium term, by anyone's standards, would be bleak. The inflation, energy crisis, and Brexit have placed the country’s economy in an unenviable position. Last week, the government announced new measures to fill the budget deficit with a £55 billion fiscal squeeze as the inflation reached a 41-year high at 11.1 percent.
+A forecast of the British economy in the short to medium term, by anyone's standards, would be bleak. The inflation, energy crisis, and Brexit have placed the country’s economy in an unenviable position. Last week, the government announced new measures to fill the budget deficit with a £55 billion fiscal squeeze as the inflation reached a 41-year high at 11.1 percent. <!--more-->
 
 Some of the challenges we have witnessed in recent times, have been global and faced by many other countries. Be it the global recession of 2007-2008 or the Covid pandemic, most of the leading economies have come out of such challenges with a different-looking economic health card than the UK. So, what is so different about the UK? 
  
