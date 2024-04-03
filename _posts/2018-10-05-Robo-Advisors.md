@@ -2,7 +2,8 @@
 layout: post
 title:  "Robo Advisors – Rise or Demise?"
 date:   2018-10-05 14:09:10 +0000
-categories: jekyll update
+categories: Algorithmic-Trading
+permalink: Robo-Advisors–Rise-or-Demise
 ---
 Wealth management has typically only been for those with higher-than-average income, with fees for these services being prohibitive for the general population.
   
