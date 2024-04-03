@@ -2,7 +2,8 @@
 layout: post
 title:  "Polarized Fractal Efficiency"
 date:   2021-11-21 10:09:10 +0000
-categories: jekyll update
+categories: Algorithmic-Trading
+permalink: Polarized-Fractal-Efficiency
 ---
 In finance, the Polarised Fractal Efficiency (PFE) indicator was developed by Hans Hannula. This measure is becoming increasingly popular and is beingadopted in many financial models.
 I often use it for stock price predictions in my models along with other indicators. I explain the theory and usage of PFE below and also present thePython code for calculating it. Before looking at it, it might be helpful to understand what are fractals. 
