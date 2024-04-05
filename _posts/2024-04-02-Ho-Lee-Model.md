@@ -1,4 +1,4 @@
-\documentclass[a4paper,draft]{class}
+$$ \documentclass[a4paper,draft]{class} $$
 ---
 layout: post
 title:  "Ho-Lee Model"
