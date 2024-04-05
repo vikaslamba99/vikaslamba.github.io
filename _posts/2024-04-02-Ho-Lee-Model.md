@@ -20,17 +20,22 @@ $$ 1 + ft dt = exp() $$
 $$ x = y^2 $$
 
 
-x^2
+$$ x^2 $$
 
-\alpha
+$$ \alpha $$
 
-\mu
+$$ \mu $$
 
-\cap
+$$ \cap $$
 
-\sum_{j=0}^3 j^2
+$$ \sum_{j=0}^3 j^2 $$
 
-\int_{x=0}^3 x^2\,dx
+$$ \int_{x=0}^3 x^2\,dx $$
+
+$$ \begin{bmatrix} $$
+      $$ 1 & 2 & 3 \\ $$
+      $$ 4 & 5 & 6 \\ $$
+$$ \end{bmatrix} $$
 
 
 \end{document}
