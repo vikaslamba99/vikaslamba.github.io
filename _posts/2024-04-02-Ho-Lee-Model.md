@@ -1,4 +1,4 @@
-$$ \documentclass[a4paper,draft]{class} $$
+
 ---
 layout: post
 title:  "Ho-Lee Model"
@@ -6,6 +6,9 @@ date:   2024-04-02 21:53:10 +0000
 categories: Algorithmic-Trading
 permalink: Ho-Lee-Model
 ---
+
+$$ \documentclass[a4paper,draft]{class} $$
+
 $$ \letterpaper/a4paper $$
 
 $$ \marginsize{5}{5}{5}{5} $$
