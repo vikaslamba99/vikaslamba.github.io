@@ -5,6 +5,8 @@ date:   2024-04-02 21:53:10 +0000
 categories: Algorithmic-Trading
 permalink: Ho-Lee-Model
 ---
+$$ \begin{document} $$
+$$ \documentclass{book} $$
 
 $$ \usepackage{fullpage} $$
 
