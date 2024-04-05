@@ -26,10 +26,10 @@ $$ \sum_{j=0}^3 j^2 $$
 
 $$ \int_{x=0}^3 x^2\,dx $$
 
-$$ \begin{bmatrix} $$
-      $$ 1 & 2 & 3 \\ $$
-      $$ 4 & 5 & 6 \\ $$
-$$ \end{bmatrix} $$
+$$ \begin{bmatrix} 
+      1 & 2 & 3 \\
+      4 & 5 & 6 \\
+\end{bmatrix} $$
 
 
 
