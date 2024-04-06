@@ -3,7 +3,7 @@ layout: post
 title:  "Backtesting Bias"
 date:   2024-04-02 14:09:10 +0000
 categories: Machine-Learning
-permalink: Machine-Learning-and-Portfolio-Management
+permalink: Backtesting-Bias
 excerpt: 
 ---
 In an optimal trading environment devoid of backtesting bias, traders would possess a figurative "crystal ball" providing deep insights into the complex dynamics of financial markets, enabling accurate predictions of <!--more--> market behavior and the development of profitable trading strategies. However, given the inherently non-deterministic nature of markets, testing new strategy ideas becomes a challenging endeavor. While traders aspire to validate the profitability of their concepts before committing real capital, the absence of a definitive formula necessitates a process of experimentation.
@@ -34,8 +34,7 @@ Well, in-sample data is only useful in the following ways:
 3. Determining sensible ranges over which parameters might be optimized
 4. Debugging the strategy, that is, ensuring trades are being entered as expected
 
-Given the topic of this post, you’ll notice something missing from that list:
-measuring the performance of a trading strategy.
+Given the topic of this post, you’ll notice something missing from that list: measuring the performance of a trading strategy.
 
 Any estimate of performance you derive from an in-sample test is plagued with overfitting and similar backtesting bias and is likely to be an optimistic estimate – unless your entire development process is watertight…but that’s a story for another time.
 
@@ -47,7 +46,18 @@ Optimising for robustness, not in-sample performance (more on this later).
 Avoid the temptation to be precise in your model specifi cation. Market data isnoisy and fickle, and any signal is weak.
 Avoid trades that will, at best, marginally cover retail trading costs, such asscalping.
 
+## Backtesting Bias
+This one is unavoidable. So, rather than spending an eternity trying to eliminatethis bias entirely, just be aware of it and accept that, generally, your strategieswon’t perform as well in the markets as they did in your simulations.
 
+You’ll commonly introduce data-mining bias when selecting the best performerfrom a bunch of strategy variants, variables or markets to continue developing.If you’re persistent enough in trying strategies and markets, you’ll eventuallyfind one that performs well simply due to luck.
+
+Think of it this way. Say you develop a trend following strategy in FX. Thestrategy crushes its backtest on EUR/USD but flops on USD/JPY. Any sensibleperson would trade the EUR/USD market, right? Sure, but you’ve just introduced selection bias into your process. Now, your estimate of the strategy’sperformance is upwardly biased. Should you throw the strategy in the bin? Not necessarily. Maybe it performed well on EUR/USD specifically for good reason.But nevertheless, some selection bias has crept into your development process.
+
+There are statistical tests to account for data mining bias, including comparingthe performance of the strategy with a distribution of random performances. You can find examples of this in the Robot Wealth Advanced Course.
+
+You can also use out-of-sample data, but this quickly becomes problematic aswe only have a finite amount of historical data on which to develop.
+So your best bet to overcome selection bias is simply adopting a sensible, measured approach to strategy development, as outlined above.
+The more complex your approach, the more likely you are to fall into thebacktesting bias traps we’ve talked about above. Either way, it’s surprisingly easy to find strategies that appear to do well, but whose performance turns outto be due to luck or randomness. That’s part of the game.
 
 
 
