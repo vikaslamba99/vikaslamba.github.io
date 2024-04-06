@@ -31,19 +31,19 @@ $$ \begin{bmatrix}
       7 & 8 & 9 \\
 \end{bmatrix} $$
 
- > &nbsp; [!NOTE]
- > &nbsp; Useful information that users should know, even when skimming content.
+ >  [!NOTE]
+ >  Useful information that users should know, even when skimming content.
 
- > &nbsp; [!TIP]
- > &nbsp; Helpful advice for doing things better or more easily.
+ >  [!TIP]
+ >  Helpful advice for doing things better or more easily.
 
- > &nbsp; [!IMPORTANT]
- > &nbsp; Key information users need to know to achieve their goal.
+ >  [!IMPORTANT]
+ >  Key information users need to know to achieve their goal.
 
- > &nbsp; [!WARNING]
- > &nbsp; Urgent info that needs immediate user attention to avoid problems.
+ >  [!WARNING]
+ >  Urgent info that needs immediate user attention to avoid problems.
 
- > &nbsp; [!CAUTION]
- > &nbsp; Advises about risks or negative outcomes of certain actions.
+ >  [!CAUTION]
+ >  Advises about risks or negative outcomes of certain actions.
 
 
