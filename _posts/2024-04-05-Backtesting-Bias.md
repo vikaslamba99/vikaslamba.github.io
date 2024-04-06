@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Backtesting Bias"
-date:   2024-04-02 14:09:10 +0000
+date:   2024-04-05 14:09:10 +0000
 categories: Machine-Learning
 permalink: Backtesting-Bias
 excerpt: 
