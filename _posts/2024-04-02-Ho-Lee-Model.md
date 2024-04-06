@@ -1,3 +1,9 @@
+\documentclass{article}
+\usepackage[hybrid]{markdown}
+\begin{document}
+
+\begin{markdown}
+
 ---
 layout: post
 title:  "Ho-Lee Model"
@@ -5,15 +11,6 @@ date:   2024-04-02 21:53:10 +0000
 categories: Algorithmic-Trading
 permalink: Ho-Lee-Model
 ---
-$$ \usepackage{fullpage} $$
-$$ \begin{document} 
-
- \begin{book}
- \documentclass{book}
- \usepackage{fullpage}
- 
-\end{document} $$
-
 Every fixed income model is determined by the continuously compounded stochastic forward rate ft. This corresponds to the repurchase agreement rate at time t. One unit invested at time t pays $$ 1 + ft dt = exp() $$ <!--more-->
 
 $$ 1 + ft dt = exp() $$
@@ -36,7 +33,10 @@ $$ \int_{x=0}^3 x^2\,dx $$
 $$ \begin{bmatrix} 
       1 & 2 & 3 \\
       4 & 5 & 6 \\
+      7 & 8 & 9 \\
 \end{bmatrix} $$
 
 
+\end{markdown}
+\end{document}
 
