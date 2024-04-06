@@ -20,7 +20,8 @@ permalink: Ho-Lee-Model
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
-> 
+
+
 <!-- This content will not appear in the rendered Markdown -->
 Every fixed income model is determined by the continuously compounded stochastic forward rate ft. This corresponds to the repurchase agreement rate at time t. One unit invested at time t pays $$ 1 + ft dt = exp() $$ <!--more-->
 
