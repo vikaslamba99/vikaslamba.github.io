@@ -49,7 +49,5 @@ $$ \begin{bmatrix}
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
 
-{: .highlight }
-> **NOTE**{: .text-delta }
-> 
-> Useful information that users should know, even when skimming content.
+> [!NOTE]
+> This is a note
