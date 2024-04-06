@@ -13,20 +13,20 @@ Assessing the actual performance of the strategy by deploying it with real capit
 Estimating the likely performance of the strategy through simulation, typically using historical data, before engaging in live trading.
 In financial trading, simulating past performance is known as backtesting. Contrary to common misconceptions, successful backtesting requires more than simply aligning signals with historical entry and exit prices. It demands a comprehensive approach to generate accurate insights while mitigating the risk of backtest bias.
 
-#Backtest Bias
+Backtest Bias
 Backtest bias arises from oversimplified methodologies that overlook critical factors influencing strategy performance, potentially hindering trading success. This bias often stems from subtle yet profound biases within the development process, such as look-ahead bias and overfitting bias.
 
-##Look-ahead Bias
+Look-ahead Bias
 Look-ahead bias occurs when future knowledge influences decisions made during historical scenario analysis, distorting backtest results. Even with backtesting software designed to prevent look-ahead bias, caution is necessary to avoid errors like retrospectively applying trade parameters calculated over the entire simulation period.
 
-##Overfitting Bias
+Overfitting Bias
 Overfitting bias becomes evident when models perform exceptionally well in backtests but fail to replicate the same success in live trading. This bias typically arises from fitting models too precisely to historical data, resulting in poor performance in real-world scenarios.
 
 To mitigate these biases, traders must adopt rigorous methodologies that account for these complexities. Implementing out-of-sample testing, favoring robustness over in-sample performance, and avoiding over-optimization are crucial steps in reducing the impact of backtesting bias.
 
 While backtesting bias is inevitable to some extent, traders can minimize its influence by adopting a cautious and methodical approach to strategy development and validation. By acknowledging the limitations of backtesting and implementing sound risk management practices, traders can enhance their chances of success in the dynamic world of financial markets.
 
-## So what’s the overarching lesson from all this?
+So what’s the overarching lesson from all this?
 Well, in-sample data is only useful in the following ways:
 1. Finding out whether a strategy can be profi table and under what conditions
 2. Determining which parameters have a signifi cant impact on performance
@@ -45,7 +45,7 @@ Optimising for robustness, not in-sample performance (more on this later).
 Avoid the temptation to be precise in your model specifi cation. Market data isnoisy and fickle, and any signal is weak.
 Avoid trades that will, at best, marginally cover retail trading costs, such asscalping.
 
-## Backtesting Bias
+Backtesting Bias
 This one is unavoidable. So, rather than spending an eternity trying to eliminatethis bias entirely, just be aware of it and accept that, generally, your strategieswon’t perform as well in the markets as they did in your simulations.
 
 You’ll commonly introduce data-mining bias when selecting the best performerfrom a bunch of strategy variants, variables or markets to continue developing.If you’re persistent enough in trying strategies and markets, you’ll eventuallyfind one that performs well simply due to luck.
