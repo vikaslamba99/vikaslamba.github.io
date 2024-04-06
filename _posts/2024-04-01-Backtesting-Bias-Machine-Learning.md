@@ -27,7 +27,7 @@ To mitigate these biases, traders must adopt rigorous methodologies that account
 
 While backtesting bias is inevitable to some extent, traders can minimize its influence by adopting a cautious and methodical approach to strategy development and validation. By acknowledging the limitations of backtesting and implementing sound risk management practices, traders can enhance their chances of success in the dynamic world of financial markets.
 
-![over-fitting](images/over-fitting.png "over-fitting")
+![over-fitting](/assets/over-fitting.png "over-fitting")
 
 ## So what’s the overarching lesson from all this?
 
