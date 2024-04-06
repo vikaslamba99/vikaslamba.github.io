@@ -9,11 +9,12 @@ In an optimal trading environment devoid of backtesting bias, traders would poss
 
 This experimental phase during strategy development exposes traders to potential pitfalls, leading to significant costs in terms of time, money, and frustration. Essentially, traders face two options when it comes to testing systematic trading strategies:
 
-Assessing the actual performance of the strategy by deploying it with real capital.
-Estimating the likely performance of the strategy through simulation, typically using historical data, before engaging in live trading.
+- Assessing the actual performance of the strategy by deploying it with real capital.
+- Estimating the likely performance of the strategy through simulation, typically using historical data, before engaging in live trading.
+
 In financial trading, simulating past performance is known as backtesting. Contrary to common misconceptions, successful backtesting requires more than simply aligning signals with historical entry and exit prices. It demands a comprehensive approach to generate accurate insights while mitigating the risk of backtest bias.
 
-Backtest Bias
+## Backtest Bias
 Backtest bias arises from oversimplified methodologies that overlook critical factors influencing strategy performance, potentially hindering trading success. This bias often stems from subtle yet profound biases within the development process, such as look-ahead bias and overfitting bias.
 
 Look-ahead Bias
