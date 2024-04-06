@@ -4,7 +4,6 @@ title:  "Backtesting Bias"
 date:   2024-04-05 14:09:10 +0000
 categories: Machine-Learning
 permalink: Backtesting-Bias
-excerpt: 
 ---
 In an optimal trading environment devoid of backtesting bias, traders would possess a figurative "crystal ball" providing deep insights into the complex dynamics of financial markets, enabling accurate predictions of <!--more--> market behavior and the development of profitable trading strategies. However, given the inherently non-deterministic nature of markets, testing new strategy ideas becomes a challenging endeavor. While traders aspire to validate the profitability of their concepts before committing real capital, the absence of a definitive formula necessitates a process of experimentation.
 
