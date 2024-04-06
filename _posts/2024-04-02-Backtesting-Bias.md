@@ -27,6 +27,26 @@ To mitigate these biases, traders must adopt rigorous methodologies that account
 
 While backtesting bias is inevitable to some extent, traders can minimize its influence by adopting a cautious and methodical approach to strategy development and validation. By acknowledging the limitations of backtesting and implementing sound risk management practices, traders can enhance their chances of success in the dynamic world of financial markets.
 
+## So what’s the overarching lesson from all this?
+Well, in-sample data is only useful in the following ways:
+1. Finding out whether a strategy can be profi table and under what conditions
+2. Determining which parameters have a signifi cant impact on performance
+3. Determining sensible ranges over which parameters might be optimized
+4. Debugging the strategy, that is, ensuring trades are being entered as expected
+
+Given the topic of this post, you’ll notice something missing from that list:
+measuring the performance of a trading strategy.
+
+Any estimate of performance you derive from an in-sample test is plagued with overfitting and similar backtesting bias and is likely to be an optimistic estimate – unless your entire development process is watertight…but that’s a story for another time.
+
+The solution to overfitting bias is adopting a sensible approach to the marketsand strategy development. This includes:
+
+Keeping trades simple. The fewer the number of fi ttable parameters, the better.
+Favouring trades that can be rationalised in a sentence, over blindly data mining fortrading rules.
+Optimising for robustness, not in-sample performance (more on this later).
+Avoid the temptation to be precise in your model specifi cation. Market data isnoisy and fickle, and any signal is weak.
+Avoid trades that will, at best, marginally cover retail trading costs, such asscalping.
+
 
 
 
