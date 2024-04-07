@@ -56,8 +56,8 @@ You’ll commonly introduce data-mining bias when selecting the best performerfr
 
 Think of it this way. Say you develop a trend following strategy in FX. The strategy crushes its backtest on EUR/USD but flops on USD/JPY. Any sensible person would trade the EUR/USD market, right? Sure, but you’ve just introduced selection bias into your process. Now, your estimate of the strategy’sperformance is upwardly biased. Should you throw the strategy in the bin? Not necessarily. Maybe it performed well on EUR/USD specifically for good reason. But nevertheless, some selection bias has crept into your development process.
 
-> [!NOTE] 
-> There are statistical tests to account for data mining bias, including comparing the performance of the strategy with a distribution of random performances. 
+> **Note**
+> There are statistical tests to account for data mining bias, including comparing the performance of the strategy with a distribution of random performances.
 
 You can also use out-of-sample data, but this quickly becomes problematic as we only have a finite amount of historical data on which to develop.
 So your best bet to overcome selection bias is simply adopting a sensible, measured approach to strategy development, as outlined above.
