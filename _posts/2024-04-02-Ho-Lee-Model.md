@@ -34,12 +34,6 @@ $$ \begin{bmatrix}
 
 
 
-> [!NOTE] 
-> This should work.
-
-> **Note**
-> This is a note
-
 
 Here is a simple footnote[^1].
 
