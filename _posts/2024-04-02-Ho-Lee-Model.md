@@ -48,9 +48,10 @@ $$ \begin{bmatrix}
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
-
+<blockquote></blockquote>
 > [!NOTE]
 > This is a note
+</blockquote>
 
 > **Note**
 > This is a note
