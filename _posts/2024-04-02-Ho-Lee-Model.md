@@ -51,3 +51,6 @@ $$ \begin{bmatrix}
 
 > [!NOTE]
 > This is a note
+
+> **Note**
+> This is a note
