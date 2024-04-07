@@ -18,9 +18,9 @@ gem "github-pages", group: :jekyll_plugins
 gem "minima", :github => 'jekyll/minima' # not specifying a commit, I just want master
 
 # If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17.0"
-end
+#group :jekyll_plugins do
+  #gem "jekyll-feed", "~> 0.17.0"
+#end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
