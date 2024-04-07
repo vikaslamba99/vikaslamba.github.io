@@ -35,6 +35,7 @@ linkedin_username:  vikas-lamba-frm-24413644
 
 runs:
   using: 'node20'
+  main: 'main.js'
 
 # Build settings
 theme: minima
