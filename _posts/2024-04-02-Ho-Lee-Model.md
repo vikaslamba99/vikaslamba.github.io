@@ -35,7 +35,7 @@ $$ \begin{bmatrix}
 
 
 > [!NOTE] 
-> Useful information that users should know, even when skimming content.
+> This should work.
 
 > **Note**
 > This is a note
