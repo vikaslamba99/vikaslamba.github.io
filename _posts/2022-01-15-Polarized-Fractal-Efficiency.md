@@ -53,7 +53,6 @@ Python code to generate and plot a Kock snowflake curve:
 
 <details><summary>Click this!</summary>
 
-```ruby
 import matplotlib.pyplot as plt
 
 def koch_snowflake(order, scale=10):
@@ -99,7 +98,6 @@ plt.axis('equal')
 plt.axis('off')
 plt.show()
 
-```
 </details>
 
 #### What is Polarised Fractal Efficiency?
