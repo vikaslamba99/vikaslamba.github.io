@@ -43,7 +43,7 @@ Liquidity risks materialize when bid-ask spreads fluctuate, the trader's actions
 
 Monitoring future cash inflows and outflows is crucial for managing quantitative liquidity risk in banks. Liquidity risk can stem from various factors, including both positive and negative cash flows, associated with current and projected contractual obligations arising from routine business operations. Identifying sources of liquidity is essential as they contribute to managing and hedging liquidity risk.
 
-Cumulative expected cash flows encompass both positive and negative cash flows projected over time, starting from a specific reference point. For a series of contracts or securities (d1, d2...), the anticipated positive and negative cash flows at a given time (t1) relative to the reference time (t0) can be calculated using the following formula:
+Cumulative expected cash flows encompass both positive and negative cash flows projected over time, starting from a specific reference point. For a series of contracts or securities $$ (d_1, d_2...), $$ the anticipated positive and negative cash flows at a given time $$ (t_1) $$ relative to the reference time $$ (t_0) $$ can be calculated using the following formula:
 
 $$ Cf_{e}^+(t_{0},t_{1}) = E\Big[\sum_{j=1}^N cf^+(t_{0},t_{1};d_{j})\Big] $$
 
@@ -52,7 +52,7 @@ $$ Cf_{e}^-(t_{0},t_{1}) = E\Big[\sum_{j=1}^N cf^-(t_{0},t_{1};d_{j})\Big] $$
 
 ### Early Warning Indicators
 
-In risk management, early warning indicators (EWIs) serve as vital signals akin to warning lights on a car dashboard. These indicators are alterations in key metrics—be they qualitative or quantitative—that may signify an impending liquidity issue, varying in severity and priority.
+In risk management, early warning indicators (EWIs) serve as vital signals akin to warning lights on a car dashboard. These indicators are alterations in key metrics — be they qualitative or quantitative — that may signify an impending liquidity issue, varying in severity and priority.
 
 For instance, consider three potential scenarios arising from EWIs:
 
