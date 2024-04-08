@@ -51,7 +51,7 @@ $$ D = \log(N)/\log(r) D = \log(4)/\log(3) = 1.26 $$
 
 Python code to generate and plot a Kock snowflake curve:
 
-```py linenums="1"
+``` py linenums="1"
 import matplotlib.pyplot as plt
 
 def koch_snowflake(order, scale=10):
@@ -141,7 +141,7 @@ where:
 
 Here’s the Python code to calculate PFE.
 
-```py linenums="1"
+``` py linenums="1"
 import math
 pfe_length = 10
 pfe_period = pfe_length - 1
@@ -160,6 +160,9 @@ df['PFE'] = pfe_values
 df['PFE'] = df['PFE'].ewm(span=5, adjust=False).mean()
 ```
 Mandelbrot was a French and American mathematician who referred to himself as the “fractalist. He coined the word “Fractal” and is recognized for his contribution to fractal geometry.
+
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
 
 Below is a TED talk by Benoit Mandelbrot on ”Fractals and the Art ofRoughness”.
 
