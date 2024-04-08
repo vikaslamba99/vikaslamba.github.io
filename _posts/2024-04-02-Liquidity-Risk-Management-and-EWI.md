@@ -8,10 +8,10 @@ permalink: Liquidity-Risk-Management-and-EWI
 
 <!-- This content will not appear in the rendered Markdown -->
 
-...there is also broad belief among users of financial liquidity—traders, investors and central bankers—that the principal challenge is not the average level of financial liquidity... but its variability and uncertainty....
-—Persaud (2003)
-
 One of the paramount advantages of contemporary financial risk management lies in its remarkable objectivity. It adopts a scientific methodology, leveraging mathematics and statistics to quantify and assess financial instruments and investment portfolios. Although these mathematical <!--more--> instruments wield substantial influence, they remain just that—tools. Should we operate under unjustified assumptions, misapply models, present outcomes inadequately, or worse, have our insights disregarded, even the most sophisticated mathematical frameworks would prove futile. After all, having flawlessly prepared eggs holds little significance if the customer's request was for a steak. 
+
+> **NOTE**
+> ...there is also broad belief among users of financial liquidity—traders, investors and central bankers—that the principal challenge is not the average level of financial liquidity... but its variability and uncertainty.... —Persaud (2003)
 
 ## What is risk?
 In colloquial terms, "risk" typically refers to the potential for negative outcomes. Something is considered risky when its final result is uncertain, with a chance of adverse consequences. However, different risk measures handle positive and negative outcomes differently. To address this, risk managers often refer specifically to downside risk when dealing with negative outcomes.
@@ -135,7 +135,6 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 [^2]: BCBS (2008) Guidelines
   •	Banks need to have indicators available to signal deterioration of liquidity or increased need for funding.
-
   •	EWIs are quantitative or qualitative and include:
   - Very sharp increase in assets.
   - More concentrated assets or liabilities.
@@ -155,9 +154,7 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 [^4]: Federal Reserve (Supervision and Regulation [SR] 10-6) Guidelines
   •	Use EWIs and event triggers to identify possible constraints on liquidity. The EWIs should be consistent to the firm’s liquidity risk profile.
-
   •	Advance notice of potential problems allows the firm more time to prepare and allows them a way to relay the information to relevant internal or external parties.
-
   •	Examples of EWIs include:
   - Bad publicity surrounding specific assets held by the firm.
   - Possible worsening of the firm’s balance sheet (e.g., decreased assets, increased liabilities).
