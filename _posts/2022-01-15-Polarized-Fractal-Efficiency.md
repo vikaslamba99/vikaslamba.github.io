@@ -61,7 +61,7 @@ Formula for Calculating Polarized Fractal Efficiency (PFE)
 
 
 
-$$ P_{i}=100* $$
+$$ P_{i} = 100 * \frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}} {1}  $$
 
 $$  if Close_{i} < Close_{i-1} ; P = -P  $$
 
