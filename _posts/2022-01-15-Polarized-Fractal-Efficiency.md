@@ -51,7 +51,7 @@ $$ D = \log(N)/\log(r) D = \log(4)/\log(3) = 1.26 $$
 
 Python code to generate and plot a Kock snowflake curve:
 
-<details><summary>Click this!</summary>
+<details><summary>Python code to generate and plot a Kock snowflake curve!</summary>
 
 import matplotlib.pyplot as plt
 
