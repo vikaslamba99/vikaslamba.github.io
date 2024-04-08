@@ -167,3 +167,6 @@ References:
 [TED talk by Benoit Mandelbrot][TED-talk-by-Benoit-Mandelbrot] 
 
 [TED-talk-by-Benoit-Mandelbrot]: https://www.ted.com/talks/benoit_mandelbrot_fractals_and_the_art_of_roughness?language=en
+
+> **Note**  
+> This is a note
