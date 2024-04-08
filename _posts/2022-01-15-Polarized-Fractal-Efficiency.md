@@ -61,7 +61,7 @@ Formula for Calculating Polarized Fractal Efficiency (PFE)
 
 
 
-$$ P_{i} = 100 * \frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}}{\sum_{j=0}^{N-2}\sqrt{(Price_{i-j}-Price_{i-j-1})^2+1}}  $$
+$$ P_{i} = 100 * \frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}}{\sum_{j=0}^N-2\sqrt{(Price_{i-j}-Price_{i-j-1})^2+1}}  $$
 
 $$  if Close_{i} < Close_{i-1} ; P = -P  $$
 
@@ -89,7 +89,6 @@ for i in range(9, len(df)):
     pfe_values.append(pfe)
 df['PFE'] = pfe_values
 df['PFE'] = df['PFE'].ewm(span=5, adjust=False).mean()
-# ...................
 ```
 Mandelbrot was a French and American mathematician who referred to himself as the “fractalist. He coined the word “Fractal” and is recognized for his contribution to fractal geometry.
 
