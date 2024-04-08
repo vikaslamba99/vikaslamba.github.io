@@ -104,7 +104,7 @@ Liquidity epitomizes a financial institution's ability to access funds promptly 
 
 A firm's net liquidity position is determined by the disparity between the liquidity inflows and outflows:
 
-Net Liquidity Position (L) = Liquidity Inflows - Liquidity Outflows
+$$ Net Liquidity Position (L) = Liquidity Inflows - Liquidity Outflows $$
 
 Where:
 
