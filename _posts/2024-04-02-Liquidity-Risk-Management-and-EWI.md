@@ -10,7 +10,7 @@ permalink: Liquidity-Risk-Management-and-EWI
 
 One of the paramount advantages of contemporary financial risk management lies in its remarkable objectivity. It adopts a scientific methodology, leveraging mathematics and statistics to quantify and assess financial instruments and investment portfolios. Although these mathematical <!--more--> instruments wield substantial influence, they remain just that—tools. Should we operate under unjustified assumptions, misapply models, present outcomes inadequately, or worse, have our insights disregarded, even the most sophisticated mathematical frameworks would prove futile. After all, having flawlessly prepared eggs holds little significance if the customer's request was for a steak. 
 
-> **NOTE**
+> **"**
 > ...there is also broad belief among users of financial liquidity—traders, investors and central bankers—that the principal challenge is not the average level of financial liquidity... but its variability and uncertainty.... —Persaud (2003)
 
 ## What is risk?
@@ -119,9 +119,8 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 
 [^1]: OCC (2012) Guidelines
-  •	EWIs should exist for securities and derivatives with embedded options (e.g., callable debt) to indicate when those options are likely to be exercised and/or any contingent liabilities associated with the embedded options.
-
-  •	EWIs should provide advance notice of a possible negative event to give the bank enough time to prepare. Examples of EWIs include:
+  EWIs should exist for securities and derivatives with embedded options (e.g., callable debt) to indicate when those options are likely to be exercised and/or any contingent liabilities associated with the embedded options. 
+  EWIs should provide advance notice of a possible negative event to give the bank enough time to prepare. Examples of EWIs include:
   - Reduced financing to be provided by lenders.
   - More stringent requirements to issue long-term debt.
   - Forthcoming regulatory changes.
@@ -134,29 +133,29 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 
 [^2]: BCBS (2008) Guidelines
-  •	Banks need to have indicators available to signal deterioration of liquidity or increased need for funding.
-  •	EWIs are quantitative or qualitative and include:
-  - Very sharp increase in assets.
-  - More concentrated assets or liabilities.
-  - More currency mismatches.
-  - Lower liability durations.
-  - Frequent occurrences of breaches or near breaches of limits.
+•	Banks need to have indicators available to signal deterioration of liquidity or increased need for funding.
+•	EWIs are quantitative or qualitative and include:
+- Very sharp increase in assets.
+- More concentrated assets or liabilities.
+- More currency mismatches.
+- Lower liability durations.
+- Frequent occurrences of breaches or near breaches of limits.
 
 
 [^3]: BCBS (2012) Guidelines
-  •	Examples of intraday liquidity indicators include:
-  - Daily maximum liquidity.
-  - Intraday liquidity availability.
-  - Total intraday payments, including the timing of them.
-  - Key obligations (e.g., time-sensitive).
-  - Amount of payments made for financial institution customers.
-  - Intraday lines of credit provided to financial institution customers.
+•	Examples of intraday liquidity indicators include:
+- Daily maximum liquidity.
+- Intraday liquidity availability.
+- Total intraday payments, including the timing of them.
+- Key obligations (e.g., time-sensitive).
+- Amount of payments made for financial institution customers.
+- Intraday lines of credit provided to financial institution customers.
 
 [^4]: Federal Reserve (Supervision and Regulation [SR] 10-6) Guidelines
-  •	Use EWIs and event triggers to identify possible constraints on liquidity. The EWIs should be consistent to the firm’s liquidity risk profile.
-  •	Advance notice of potential problems allows the firm more time to prepare and allows them a way to relay the information to relevant internal or external parties.
-  •	Examples of EWIs include:
-  - Bad publicity surrounding specific assets held by the firm.
-  - Possible worsening of the firm’s balance sheet (e.g., decreased assets, increased liabilities).
-  - Increasing spreads for fixed income and swap products.
+•	Use EWIs and event triggers to identify possible constraints on liquidity. The EWIs should be consistent to the firm’s liquidity risk profile.
+•	Advance notice of potential problems allows the firm more time to prepare and allows them a way to relay the information to relevant internal or external parties.
+•	Examples of EWIs include:
+- Bad publicity surrounding specific assets held by the firm.
+- Possible worsening of the firm’s balance sheet (e.g., decreased assets, increased liabilities).
+- Increasing spreads for fixed income and swap products.
 
