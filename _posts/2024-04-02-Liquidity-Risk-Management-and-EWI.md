@@ -20,7 +20,7 @@ Financial risk is commonly categorized into four main types: market risk, credit
 
 Some financial experts distinguish between risk and uncertainty, but a more useful distinction might be between intrinsic risk and extrinsic risk. Intrinsic risk refers to risks inherent to financial instruments, which cannot be mitigated regardless of the level of knowledge about the instrument, except by reducing the investment size.
 
-### History
+#### History
 Long-Term Capital Management (LTCM) is significant in the annals of risk management for several reasons. The collapse of LTCM in 1998 sent shockwaves through the financial community. At the time, it stood as one of the largest and most esteemed hedge funds globally, boasting an impressive track record and founded by notable figures like John Meriwether, Myron Scholes, and Robert Merton. LTCM's extensive portfolio and network of counterparties raised concerns among regulators, who feared its downfall could wreak havoc on the broader financial system. The New York Fed convened an emergency meeting of major investment bank heads to oversee the orderly liquidation of LTCM's assets. The fact that a relatively small firm, employing fewer than 200 individuals and virtually unknown outside financial circles, could pose such systemic risk underscored the remarkable expansion of non-traditional financial markets, particularly derivatives and hedge funds, during the 1980s and 1990s. This growth alone justifies LTCM's place in the history of risk management.
 
 Another often overlooked aspect of LTCM's story is its founders' perception of risk management as a tool to reduce capital requirements for both financial and non-financial entities. The idea was that by freeing up capital, firms could allocate resources more efficiently, fostering greater productivity across the economy. While LTCM's demise revealed clear issues of overleverage and undercapitalization, the concept that effective risk management can enhance firms' efficiencies remains valid. Finally, LTCM's failure, partly attributed to its flawed risk models and their application, served as a wake-up call for the risk management community. The external trigger of LTCM's collapse—the Russian debt default—continues to underpin stress tests at numerous financial institutions and prompted a reevaluation of historically-based quantitative risk models, driving the search for more robust solutions.
@@ -46,6 +46,7 @@ Monitoring future cash inflows and outflows is crucial for managing quantitative
 Cumulative expected cash flows encompass both positive and negative cash flows projected over time, starting from a specific reference point. For a series of contracts or securities (d1, d2...), the anticipated positive and negative cash flows at a given time (t1) relative to the reference time (t0) can be calculated using the following formula:
 
 $$ Cf_{e}^+(t_{0},t_{1}) = E\Big[\sum_{j=1}^N cf^+(t_{0},t_{1};d_{j})\Big] $$
+
 $$ Cf_{e}^-(t_{0},t_{1}) = E\Big[\sum_{j=1}^N cf^-(t_{0},t_{1};d_{j})\Big] $$
 
 
@@ -61,7 +62,7 @@ For instance, consider three potential scenarios arising from EWIs:
 
 The primary objective of EWIs is to prompt management acknowledgment of the situation, fostering essential dialogue and actions, along with proper documentation.
 
-### EWI Framework
+### Framework
 The EWI framework encompasses measures, escalation, reporting, integrated systems, and thresholds. Transitioning effectively from measures to escalation mandates timely reporting, supported by integrated systems and appropriate thresholds.
 
 ### Measures
@@ -75,7 +76,7 @@ EWIs are crucial in normal operating conditions to signal potential deterioratio
 ### Different Time Horizons
 Considering various time horizons is essential, given the differing durations of the bank's assets and liabilities. Time horizons such as hourly, daily, weekly, and monthly are effective for early warnings due to their shorter durations.
 
-## EWI Applications in liquidity risk management process
+## Applications in liquidity risk management process
 
 ### Escalation
 EWIs play a pivotal role in potentially escalating issues to relevant management personnel, enabling appropriate remedies based on issue severity. Clear inclusion of EWIs in an escalation plan enhances their effectiveness in LRM.
@@ -86,10 +87,10 @@ Timely reporting of EWIs, such as daily or even intraday for banks involved in s
 ### Integrated Systems
 Integrated data processing systems ensure consistent and accurate reporting of measures by consolidating data from multiple sources. This provides liquidity risk managers with valuable internal EWI information complementing external measures.
 
-### Thresholds
+#### Thresholds
 EWI thresholds can adopt a "green, amber, and red" stoplight approach, with each colour signifying varying degrees of action urgency. Calibration from green to amber should be meticulous to avoid undetected problems or unnecessary alerts.
 
-### Industry Practices
+#### Industry Practices
 Banks and financial institutions are increasingly adopting EWI dashboards to facilitate supervisory duties and enhance risk reporting.
 
 EWI Guidelines from regulators and supervisors
@@ -119,6 +120,7 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 [^1]: OCC (2012) Guidelines
 •	EWIs should exist for securities and derivatives with embedded options (e.g., callable debt) to indicate when those options are likely to be exercised and/or any contingent liabilities associated with the embedded options.
+
 •	EWIs should provide advance notice of a possible negative event to give the bank enough time to prepare. Examples of EWIs include:
 - Reduced financing to be provided by lenders.
 - More stringent requirements to issue long-term debt.
@@ -133,6 +135,7 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 [^2]: BCBS (2008) Guidelines
 •	Banks need to have indicators available to signal deterioration of liquidity or increased need for funding.
+
 •	EWIs are quantitative or qualitative and include:
 - Very sharp increase in assets.
 - More concentrated assets or liabilities.
@@ -152,7 +155,9 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 [^4]: Federal Reserve (Supervision and Regulation [SR] 10-6) Guidelines
 •	Use EWIs and event triggers to identify possible constraints on liquidity. The EWIs should be consistent to the firm’s liquidity risk profile.
+
 •	Advance notice of potential problems allows the firm more time to prepare and allows them a way to relay the information to relevant internal or external parties.
+
 •	Examples of EWIs include:
 - Bad publicity surrounding specific assets held by the firm.
 - Possible worsening of the firm’s balance sheet (e.g., decreased assets, increased liabilities).
