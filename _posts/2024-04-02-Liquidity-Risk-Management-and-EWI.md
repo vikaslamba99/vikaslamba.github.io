@@ -45,12 +45,13 @@ Monitoring future cash inflows and outflows is crucial for managing quantitative
 
 Cumulative expected cash flows encompass both positive and negative cash flows projected over time, starting from a specific reference point. For a series of contracts or securities (d1, d2...), the anticipated positive and negative cash flows at a given time (t1) relative to the reference time (t0) can be calculated using the following formula:
 
-$$ Cf_{e}^+(t_{0},t_{1}) = \Big[\sum_{j=1}^N cf^+(t_{0},t_{1};d_{j})\Big] $$
+$$ Cf_{e}^+(t_{0},t_{1}) = E\Big[\sum_{j=1}^N cf^+(t_{0},t_{1};d_{j})\Big] $$
+$$ Cf_{e}^-(t_{0},t_{1}) = E\Big[\sum_{j=1}^N cf^-(t_{0},t_{1};d_{j})\Big] $$
 
 
-### Liquidity - Early Warning Indicators
+### Early Warning Indicators
 
-In liquidity risk management (LRM), early warning indicators (EWIs) serve as vital signals akin to warning lights on a car dashboard. These indicators are alterations in key metrics—be they qualitative or quantitative—that may signify an impending liquidity issue, varying in severity and priority.
+In risk management, early warning indicators (EWIs) serve as vital signals akin to warning lights on a car dashboard. These indicators are alterations in key metrics—be they qualitative or quantitative—that may signify an impending liquidity issue, varying in severity and priority.
 
 For instance, consider three potential scenarios arising from EWIs:
 
@@ -92,7 +93,7 @@ EWI thresholds can adopt a "green, amber, and red" stoplight approach, with each
 Banks and financial institutions are increasingly adopting EWI dashboards to facilitate supervisory duties and enhance risk reporting.
 
 EWI Guidelines from regulators and supervisors
-Regulatory guidelines on EWIs have been established by entities like the Office of the Comptroller of the Currency (OCC), the Basel Committee on Banking Supervision (BCBS), and the Federal Reserve, aiming to improve liquidity risk management practices.
+Regulatory guidelines on EWIs have been established by entities like the Office of the Comptroller of the Currency (OCC) [^1], the Basel Committee on Banking Supervision (BCBS)[^2] [^3], and the Federal Reserve [^4], aiming to improve liquidity risk management practices.
 
 EWIs are indispensable tools in liquidity risk management, guiding timely actions and fostering effective risk mitigation strategies.
 
@@ -116,10 +117,44 @@ Timing plays a pivotal role in liquidity management, with some needs being immed
 Liquidity challenges arise due to various factors. Financial institutions often grapple with maturity imbalances between short-term borrowings (requiring imminent liabilities settlement) and long-term lending (entailing prolonged customer payments). Interest rate risk (associated with fluctuating rates) and availability risk (liquid funds not accessible when needed) are two prevalent risks stemming from this disparity.
 
 
-Here is a simple footnote[^1].
+[^1]: OCC (2012) Guidelines
+•	EWIs should exist for securities and derivatives with embedded options (e.g., callable debt) to indicate when those options are likely to be exercised and/or any contingent liabilities associated with the embedded options.
+•	EWIs should provide advance notice of a possible negative event to give the bank enough time to prepare. Examples of EWIs include:
+- Reduced financing to be provided by lenders.
+- More stringent requirements to issue long-term debt.
+- Forthcoming regulatory changes.
+- Capital, asset quality, management, earnings, liquidity, and sensitivity (CAMELS) rating downgrades.
+- Spread increases on fixed income and swap products.
+- Falling stock prices.
+- Higher borrowing rates in normal market conditions.
+- Reduced deposits by portfolio managers and funds.
+- Higher margins required.
 
-A footnote can also have multiple lines[^2].
 
-[^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+[^2]: BCBS (2008) Guidelines
+•	Banks need to have indicators available to signal deterioration of liquidity or increased need for funding.
+•	EWIs are quantitative or qualitative and include:
+- Very sharp increase in assets.
+- More concentrated assets or liabilities.
+- More currency mismatches.
+- Lower liability durations.
+- Frequent occurrences of breaches or near breaches of limits.
+
+
+[^3]: BCBS (2012) Guidelines
+•	Examples of intraday liquidity indicators include:
+- Daily maximum liquidity.
+- Intraday liquidity availability.
+- Total intraday payments, including the timing of them.
+- Key obligations (e.g., time-sensitive).
+- Amount of payments made for financial institution customers.
+- Intraday lines of credit provided to financial institution customers.
+
+[^4]: Federal Reserve (Supervision and Regulation [SR] 10-6) Guidelines
+•	Use EWIs and event triggers to identify possible constraints on liquidity. The EWIs should be consistent to the firm’s liquidity risk profile.
+•	Advance notice of potential problems allows the firm more time to prepare and allows them a way to relay the information to relevant internal or external parties.
+•	Examples of EWIs include:
+- Bad publicity surrounding specific assets held by the firm.
+- Possible worsening of the firm’s balance sheet (e.g., decreased assets, increased liabilities).
+- Increasing spreads for fixed income and swap products.
+
