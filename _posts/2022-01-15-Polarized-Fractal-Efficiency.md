@@ -32,19 +32,78 @@ If we halved the scale again, we would get a similar result, a longer estimate o
 The relation between length estimate and length of scale is linear on a log-log plot. Mandelbrot assigned the term (1-D) to the slope, so the functions are:
 
 $$ \log[L(s)] = (1-D)\log(s) + b $$ 
+
 where D is the Fractal Dimension.
-For Great Britain coastline, $$ 1 - D = -.24, $$ approximately. $$ D = 1-(-.24) = 1.24, $$ a fractional value.
+For Great Britain coastline, approximately:
+
+$$ 1 - D = -.24, $$
+
+So,
+
+$$ D = 1-(-.24) = 1.24, $$ 
+
+which is a fractional value.
 
 Let us now see an example on how to find the dimensions of a fractal: KochCurve. We begin with a straight line of length 1, called the initiator. We then remove the middle third of the line, and replace it with two lines that each have the same length (1/3) as the remaining lines on each side. This new form is called the generator, because it specifies a rule that is used to generate a new form. The rule says to take each line and replace it with four lines, each one-third the length of the original. We do this iteratively ... without end. The length of the curve increases with each iteration. It has infinite length. But if we treat the Koch curve as we did the coastline, we find its fractal dimension to be 1.26. 
-The same result obtained from D = log(N)/log(r) D = log(4)/log(3) = 1.26.
+The same result obtained from:
 
+$$ D = \log(N)/\log(r) D = \log(4)/\log(3) = 1.26 $$
 
-<h4>
-What is Polarised Fractal Efficiency?
-</h4>
+Python code to generate and plot a Kock snowflake curve:
+
+```
+import matplotlib.pyplot as plt
+
+def koch_snowflake(order, scale=10):
+    """
+    Generate a Koch snowflake curve with a given order and scale.
+    """
+    if order == 0:
+        # Base case: a single line segment
+        return [(0, 0), (scale, 0)]
+    
+    # Recursive case: get the points of the previous order
+    points = koch_snowflake(order - 1, scale)
+    new_points = []
+    
+    for p1, p2 in zip(points[:-1], points[1:]):
+        # Calculate the new points in between
+        x1, y1 = p1
+        x2, y2 = p2
+        dx = x2 - x1
+        dy = y2 - y1
+        
+        # Calculate the 1/3 and 2/3 points
+        p1 = (x1, y1)
+        p2 = (x1 + dx / 3, y1 + dy / 3)
+        p3 = (0.5 * (x1 + x2) - (3 ** 0.5 / 6) * (y1 - y2), 0.5 * (y1 + y2) + (3 ** 0.5 / 6) * (x1 - x2))
+        p4 = (x1 + 2 * dx / 3, y1 + 2 * dy / 3)
+        p5 = (x2, y2)
+        
+        # Add the new points
+        new_points.extend([p1, p2, p3, p4, p5])
+    
+    return new_points
+
+# Generate and plot the Koch snowflake curve
+order = 5  # Change the order for more or less detail
+scale = 100  # Adjust the scale as needed
+snowflake_points = koch_snowflake(order, scale)
+x, y = zip(*snowflake_points)
+plt.figure(figsize=(8, 6))
+plt.plot(x, y)
+plt.title(f'Koch Snowflake Curve (Order {order})')
+plt.axis('equal')
+plt.axis('off')
+plt.show()
+
+```
+
+#### What is Polarised Fractal Efficiency?
+
 The Polarized Fractal Efficiency indicator is, in the essence, an exponentially smoothed ratio of the length of two lines:
-A straight line between today’s close and the close period days ago, and
-A broken line connecting all Close points between today and period days ago.
+- A straight line between today’s close and the close period days ago, and
+- A broken line connecting all Close points between today and period days ago.
 
 At its core, PFE measures the efficiency of price movements over a specific period, shedding light on the underlying trends within a financial market. Unlike traditional metrics, PFE delves deeper, capturing not only the magnitude but also the directionality of price changes.
 
