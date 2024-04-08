@@ -59,14 +59,16 @@ A simple way to read this indicator is that if it is >50 (<-50) then the market 
 
 #### Formula for Calculating Polarized Fractal Efficiency (PFE)
 
-$$ P_{i} = 100 * \frac{\sqrt{(Price_{i} - Price_{i-N})^2 + N^2}}{\sum_{j=0}^{N-2}\sqrt{(Price_{i-j} - Price_{i-j-1})^2 + 1}   $$
+
+$$ P_{i} = 100 * \frac{\sqrt{(Price_{i} - Price_{i-N})^2 + N^2}}{\sum_{j=0}^{N-2}\sqrt{(Price_{i-j} - Price_{i-j-1})^2 + 1}  $$
 
 $$  if Close_{i} < Close_{i-1} ; P = -P  $$
 
 $$  PFE_{i} = EMA(P_{i}, M) $$
 
-> where:
-$$ N = period of indicator, M = smoothing period $$
+where:
+- N = period of indicator.
+- M = smoothing period.
 
 Here’s the Python code the I use to calculate PFE.
 
