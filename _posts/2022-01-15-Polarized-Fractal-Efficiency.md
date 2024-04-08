@@ -61,9 +61,9 @@ Formula for Calculating Polarized Fractal Efficiency (PFE)
 
 
 
-$$ P_{i} = 100 * \frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}}{\sum_{j=0}^N-2\sqrt{(Price_{i-j}-Price_{i-j-1})^2+1}}  $$
+$$ P_{i} = 100 * \frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}}{ \sum_{j=0}^{N-2} \sqrt{(Price_{i-j}-Price_{i-j-1})^2+1}}  $$
 
-$$  if Close_{i} < Close_{i-1} ; P = -P  $$
+$$  if Close_{i} < Close_{i-1} ;  P = -P  $$
 
 $$  PFE_{i} = EMA(P_{i}, M) $$
 
