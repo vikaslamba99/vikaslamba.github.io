@@ -57,7 +57,8 @@ As a general rule, the further the PFE value is away from zero, the stronger and
 
 A simple way to read this indicator is that if it is >50 (<-50) then the market is likely to reverse its trend from positive to negative (from negative to positive).
 
-#### Formula for Calculating Polarized Fractal Efficiency (PFE)
+Formula for Calculating Polarized Fractal Efficiency (PFE)
+
 
 
 $$ P_{i}=100*\frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}}{\sum_{j=0}^{N-2}\sqrt{(Price_{i-j}-Price_{i-j-1})^2+1}  $$
@@ -71,12 +72,7 @@ where:
 - M = smoothing period.
 
 Here’s the Python code to calculate PFE.
-
-{% highlight ruby %}
-# The below code is a snippet from one of my existing strategies and you might want to 
-# edit and add to suit your needs.
-# The purpose here is to explain how to derive pfe value.
-# ................... 
+```
 import math
 pfe_length = 10
 pfe_period = pfe_length - 1
@@ -93,9 +89,8 @@ for i in range(9, len(df)):
     pfe_values.append(pfe)
 df['PFE'] = pfe_values
 df['PFE'] = df['PFE'].ewm(span=5, adjust=False).mean()
-    # ...................
-{% endhighlight %}
-
+# ...................
+```
 Mandelbrot was a French and American mathematician who referred to himself as the “fractalist. He coined the word “Fractal” and is recognized for his contribution to fractal geometry.
 
 Below is a TED talk by Benoit Mandelbrot on ”Fractals and the Art ofRoughness”.
