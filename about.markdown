@@ -17,8 +17,6 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 -->
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
 
 <!---
 Vikas Lamba is a Financial Risk Mnagement professional possessing deep knowledge & experience of financial industry. 
