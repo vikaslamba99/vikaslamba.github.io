@@ -6,12 +6,12 @@ categories: Algorithmic-Trading
 permalink: Polarized-Fractal-Efficiency
 ---
 In finance, one of the key tools gaining traction among analysts and traders alike is the Polarized Fractal Efficiency (PFE) indicator. Developed by Hans Hannula, this indicator has found its way into many financial models and is increasingly relied upon for stock price predictions and market trend analysis. <!--more-->
-<h4>
-What are Fractals?
-</h4>
+
+#### What are Fractals?
+
 But before delving into the intricacies of the PFE indicator, it's essential to grasp the concept of fractals. Fractals, as Mandelbrot elucidated, are mathematical patterns characterized by self-similarity. They reveal intricate structures that repeat themselves at different scales. This concept has found application in various fields, from describing natural phenomena to understanding market dynamics.
 
-> I have included the link to a Ted Talk by Mandelbrot at the end, for those who are interested.
+> I have included the link to a Ted Talk by Mandelbrot at the end.
 
 Fractals are mathematical patterns that are characterized by self-similarity. If a fractal pattern is zoomed into, the exact same pattern appears. Few popular examples are the Sierpinski Gasket and the Koch Snowflake.
 
