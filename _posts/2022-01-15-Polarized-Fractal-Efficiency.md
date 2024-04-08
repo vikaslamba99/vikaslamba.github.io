@@ -92,8 +92,6 @@ where:
 
 Mandelbrot was a French and American mathematician who referred to himself as the “fractalist. He coined the word “Fractal” and is recognized for his contribution to fractal geometry.
 
-Below is a TED talk by Benoit Mandelbrot on ”Fractals and the Art ofRoughness”.
-
 > Below is the Python code to calculate PFE.
 
 ``` py
@@ -165,7 +163,8 @@ plt.show()
 ```
 
 References:
-1. [TED talk by Benoit Mandelbrot][TED-talk-by-Benoit-Mandelbrot] 
+1. Below is a TED talk by Benoit Mandelbrot on ”Fractals and the Art ofRoughness”.
+[TED talk by Benoit Mandelbrot][TED-talk-by-Benoit-Mandelbrot] 
 
 
 [TED-talk-by-Benoit-Mandelbrot]: https://www.ted.com/talks/benoit_mandelbrot_fractals_and_the_art_of_roughness?language=en
