@@ -19,7 +19,13 @@ Fractals exhibit a unique property where their dimension is not a whole number, 
 
 The coastline is irregular, so a measure with a straight ruler, as in the next figure, provides an estimate. The estimated length, L, equals the length of the ruler, s, multiplied by the N, the number of such rulers needed to cover the measured object. In the next figure we measure a part of the coastline twice, the ruler on the right is half that used on the left.
 
-But the estimate on the right is longer. If the the scale on the left is one, we have six units, but halving the unit gives us 15 rulers (L=7.5), not 12 (L=6). If we halved the scale again, we would get a similar result, a longer estimate of L. In general, as the ruler gets diminishingly small, the length gets infinitely large. The concept of length, begins to make little sense.
+![coastline](/assets/coastline.gif "coastline")
+
+But the estimate on the right is longer. If the the scale on the left is one, we have six units, but halving the unit gives us 15 rulers (L=7.5), not 12 (L=6). 
+![Koch curve Generator](/assets/Koch_curve_gen.gif "Kock Curve Generator")
+
+If we halved the scale again, we would get a similar result, a longer estimate of L. In general, as the ruler gets diminishingly small, the length gets infinitely large. The concept of length, begins to make little sense.
+![Koch curve](/assets/Koch_curve.gif "Kock Curve")
 
 The relation between length estimate and length of scale is linear on a log-log plot. Mandelbrot assigned the term (1-D) to the slope, so the functions are:
 log[L(s)] = (1-D)log(s) + b where D is the Fractal Dimension.
