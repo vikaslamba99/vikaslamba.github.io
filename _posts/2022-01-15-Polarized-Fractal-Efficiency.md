@@ -51,7 +51,7 @@ $$ D = \log(N)/\log(r) D = \log(4)/\log(3) = 1.26 $$
 
 Python code to generate and plot a Kock snowflake curve:
 
-``` ruby linenums="1"
+``` ruby
 import matplotlib.pyplot as plt
 
 def koch_snowflake(order, scale=10):
@@ -141,7 +141,7 @@ where:
 
 Here’s the Python code to calculate PFE.
 
-``` py linenums="1"
+``` py
 import math
 pfe_length = 10
 pfe_period = pfe_length - 1
