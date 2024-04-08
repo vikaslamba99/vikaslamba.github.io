@@ -65,7 +65,17 @@ excerpt_separator: <!--more-->
 markdown: kramdown
 kramdown:
   parse_block_html: true
-  
+
+markdown_extensions:
+  - pymdownx.betterem
+
+markdown_extensions:
+  - admonition
+
+markdown_extensions:
+  - pymdownx.details
+
+
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   # Minima skin selection.
