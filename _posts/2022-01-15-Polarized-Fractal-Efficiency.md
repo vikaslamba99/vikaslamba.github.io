@@ -60,7 +60,7 @@ A simple way to read this indicator is that if it is >50 (<-50) then the market 
 #### Formula for Calculating Polarized Fractal Efficiency (PFE)
 
 
-$$ P_{i} = 100 * \frac{\sqrt{(Price_{i} - Price_{i-N})^2 + N^2}}{\sum_{j=0}^{N-2}\sqrt{(Price_{i-j} - Price_{i-j-1})^2 + 1}  $$
+$$ P_{i}=100*\frac{\sqrt{(Price_{i}-Price_{i-N})^2+N^2}}{\sum_{j=0}^{N-2}\sqrt{(Price_{i-j}-Price_{i-j-1})^2+1}  $$
 
 $$  if Close_{i} < Close_{i-1} ; P = -P  $$
 
@@ -70,21 +70,17 @@ where:
 - N = period of indicator.
 - M = smoothing period.
 
-Here’s the Python code the I use to calculate PFE.
+Here’s the Python code to calculate PFE.
 
 {% highlight ruby %}
-
 # The below code is a snippet from one of my existing strategies and you might want to 
 # edit and add to suit your needs.
 # The purpose here is to explain how to derive pfe value.
-
 # ................... 
 import math
-
 pfe_length = 10
 pfe_period = pfe_length - 1
 pfe_values = [0] * 9
-
 for i in range(9, len(df)):
     diff = df['Close'][i] - df['Close'][i - pfe_period]
     pfe1 = 100 * math.sqrt(pow(diff, 2) + pow(pfe_period, 2))
@@ -95,7 +91,6 @@ for i in range(9, len(df)):
     if diff < 0:
         pfe = -pfe
     pfe_values.append(pfe)
-
 df['PFE'] = pfe_values
 df['PFE'] = df['PFE'].ewm(span=5, adjust=False).mean()
     # ...................
