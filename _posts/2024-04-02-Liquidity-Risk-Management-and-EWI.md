@@ -119,7 +119,8 @@ Liquidity challenges arise due to various factors. Financial institutions often 
 
 
 
-> Footnotes:
+Footnotes:
+
 > [^1]: OCC (2012) Guidelines. EWIs should exist for securities and derivatives with embedded options (e.g., callable debt) to indicate when those options are likely to be exercised and/or any contingent liabilities associated with the embedded options. EWIs should provide advance notice of a possible negative event to give the bank enough time to prepare. Examples of EWIs include: Reduced financing to be provided by lenders. More stringent requirements to issue long-term debt. Forthcoming regulatory changes. Capital, asset quality, management, earnings, liquidity, and sensitivity (CAMELS) rating downgrades. Spread increases on fixed income and swap products. Falling stock prices. Higher borrowing rates in normal market conditions. Reduced deposits by portfolio managers and funds. Higher margins required.
 
 > [^2]: BCBS (2008) Guidelines. Banks need to have indicators available to signal deterioration of liquidity or increased need for funding. EWIs are quantitative or qualitative and include: Very sharp increase in assets. More concentrated assets or liabilities. More currency mismatches. Lower liability durations. Frequent occurrences of breaches or near breaches of limits.
