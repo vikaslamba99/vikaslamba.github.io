@@ -30,8 +30,10 @@ If we halved the scale again, we would get a similar result, a longer estimate o
 ![Koch curve](/assets/Koch_curve.gif "Kock Curve")
 
 The relation between length estimate and length of scale is linear on a log-log plot. Mandelbrot assigned the term (1-D) to the slope, so the functions are:
-log[L(s)] = (1-D)log(s) + b where D is the Fractal Dimension.
-For Great Britain coastline, 1 - D = -.24, approximately. D = 1-(-.24) = 1.24, a fractional value.
+
+$$ \log[L(s)] = (1-D)\log(s) + b $$ 
+where D is the Fractal Dimension.
+For Great Britain coastline, $$ 1 - D = -.24, $$ approximately. $$ D = 1-(-.24) = 1.24, $$ a fractional value.
 
 Let us now see an example on how to find the dimensions of a fractal: KochCurve. We begin with a straight line of length 1, called the initiator. We then remove the middle third of the line, and replace it with two lines that each have the same length (1/3) as the remaining lines on each side. This new form is called the generator, because it specifies a rule that is used to generate a new form. The rule says to take each line and replace it with four lines, each one-third the length of the original. We do this iteratively ... without end. The length of the curve increases with each iteration. It has infinite length. But if we treat the Koch curve as we did the coastline, we find its fractal dimension to be 1.26. 
 The same result obtained from D = log(N)/log(r) D = log(4)/log(3) = 1.26.
