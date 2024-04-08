@@ -51,8 +51,7 @@ $$ D = \log(N)/\log(r) D = \log(4)/\log(3) = 1.26 $$
 
 Python code to generate and plot a Kock snowflake curve:
 
-<details><summary>Python code to generate and plot a Kock snowflake curve!</summary>
-
+```py
 import matplotlib.pyplot as plt
 
 def koch_snowflake(order, scale=10):
@@ -97,8 +96,7 @@ plt.title(f'Koch Snowflake Curve (Order {order})')
 plt.axis('equal')
 plt.axis('off')
 plt.show()
-
-</details>
+```
 
 #### What is Polarised Fractal Efficiency?
 
@@ -142,7 +140,7 @@ where:
 - M = smoothing period.
 
 Here’s the Python code to calculate PFE.
-```
+```py
 import math
 pfe_length = 10
 pfe_period = pfe_length - 1
