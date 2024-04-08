@@ -29,7 +29,7 @@ email: vlamb@duck.com
 description: >- # this means to ignore newlines until "baseurl:"
   Any technology distinguishable from magic is insufficiently advanced.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://vikaslamba99.github.io
+url: https://vikaslamba.github.io
 github_username:  vikaslamba99
 linkedin_username:  vikas-lamba-frm-24413644
 
