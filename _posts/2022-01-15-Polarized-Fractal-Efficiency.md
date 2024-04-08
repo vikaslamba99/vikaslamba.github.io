@@ -22,9 +22,11 @@ The coastline is irregular, so a measure with a straight ruler, as in the next f
 ![coastline](/assets/coastline.gif "coastline")
 
 But the estimate on the right is longer. If the the scale on the left is one, we have six units, but halving the unit gives us 15 rulers (L=7.5), not 12 (L=6). 
+
 ![Koch curve Generator](/assets/Koch_curve_gen.gif "Kock Curve Generator")
 
 If we halved the scale again, we would get a similar result, a longer estimate of L. In general, as the ruler gets diminishingly small, the length gets infinitely large. The concept of length, begins to make little sense.
+
 ![Koch curve](/assets/Koch_curve.gif "Kock Curve")
 
 The relation between length estimate and length of scale is linear on a log-log plot. Mandelbrot assigned the term (1-D) to the slope, so the functions are:
