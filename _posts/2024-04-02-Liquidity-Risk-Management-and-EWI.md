@@ -8,7 +8,7 @@ permalink: Liquidity-Risk-Management-and-EWI
 
 <!-- This content will not appear in the rendered Markdown -->
 
-One of the paramount advantages of contemporary financial risk management lies in its remarkable objectivity. It adopts a scientific methodology, leveraging mathematics and statistics to quantify and assess financial instruments and investment portfolios. Although these mathematical <!--more--> instruments wield substantial influence, they remain just that—tools. Should we operate under unjustified assumptions, misapply models, present outcomes inadequately, or worse, have our insights disregarded, even the most sophisticated mathematical frameworks would prove futile. After all, having flawlessly prepared eggs holds little significance if the customer's request was for a steak. 
+One of the paramount advantages of contemporary financial risk management lies in its remarkable objectivity. It adopts a scientific methodology, leveraging mathematics and statistics to quantify and assess financial instruments and investment portfolios. Although these mathematical <!--more--> instruments wield substantial influence, they remain just that—tools. Should we operate under unjustified assumptions, misapply models, present outcomes inadequately, or worse, have our insights disregarded, even the most sophisticated mathematical frameworks would prove futile. After all, having flawlessly prepared fish holds little significance if the customer's request was for a steak. 
 
 > **"**
 > ...there is also broad belief among users of financial liquidity—traders, investors and central bankers—that the principal challenge is not the average level of financial liquidity... but its variability and uncertainty.... —Persaud (2003)
