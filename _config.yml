@@ -62,6 +62,10 @@ future: true
 excerpt_separator: <!--more-->
 # Build settings
 
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   # Minima skin selection.
