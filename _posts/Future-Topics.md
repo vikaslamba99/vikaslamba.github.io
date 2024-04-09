@@ -7,14 +7,13 @@ permalink: Navigate-to Higher-Alpha
 ---
 
 #### Decay
-> Factor Decay
-
-> Signal Decay
+> 1. Factor Decay
+> 2. Signal Decay
 
 > Momentum Decay
 
 #### Factors
-> Factor mining
-> 5 factor model
-> Combining multiple factors
-> Kakushezda 101 factors
+> 1. Factor mining
+> 2. 5 factor model
+> 3. Combining multiple factors
+> 4. Kakushezda 101 factors
