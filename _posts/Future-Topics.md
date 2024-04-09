@@ -28,3 +28,8 @@ permalink: Navigate-to Higher-Alpha
 > 1. Regression
 > 2. Gradient Descent
 > 3. LLM models in financial ML
+
+#### Portfolio Management
+> 1. Value vs Growth vs Momentum strategies
+> 2. Portfolio Active Risk Management
+> 3. Quantitative Security Selection
