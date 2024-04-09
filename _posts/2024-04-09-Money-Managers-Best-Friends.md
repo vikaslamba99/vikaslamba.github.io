@@ -16,8 +16,6 @@ Efficient data sourcing and curation are fundamental pillars of successful finan
 
 Harnessing the power of machine learning for generating signals is instrumental in uncovering actionable insights and identifying lucrative investment opportunities. Advanced algorithms analyze vast datasets to discern patterns, trends, and anomalies, thereby generating signals that inform investment decisions. By leveraging machine learning techniques, managers can gain a deeper understanding of market dynamics and adapt their strategies accordingly, enhancing performance and mitigating risks.
 
-#### Advanced Computing Power for Machine Learning
-
 The effectiveness of machine learning algorithms hinges on the availability of advanced computing power. High-performance computing infrastructure enables financial managers to process vast datasets and execute complex algorithms with speed and efficiency. Cloud-based solutions offer scalability and flexibility, allowing managers to harness computing resources on-demand, thereby accelerating model development and enhancing decision-making capabilities.
 
 #### Intelligent Portfolio Management System
