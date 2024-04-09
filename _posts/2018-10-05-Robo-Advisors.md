@@ -22,8 +22,9 @@ With artificial intelligence and deep learning still near their infancy and grow
 Collecting and processing the information necessary for complex decision-making is not just time consuming but expensive too. It is beyond a human being’s cognitive limits to fully define the future states of the financial assets and probability-weighing them. Even the chess grandmasters are unable to fully evaluate more than five chess moves ahead and the human cognitive limits are quickly breached. 
 
 This is where, with advanced artificial intelligence, machine learning and more cognitive computing employed, the robo-advisors of future will have an advantage as the decision making is far more complex.
-
+<!-->
 This is <sup>SuperScript</sup>  
+-->
 
 References:
 1. [Kitces (2017)][Separating-Risk-Tolerance-From-Risk-Capacity] 
