@@ -18,6 +18,10 @@ Markets move fast and can be unpredictable, so insight and information that help
 
 Machine learning, a subset of artificial intelligence, offers a revolutionary approach to investment management by leveraging advanced algorithms to analyze vast datasets and extract actionable insights. By identifying patterns, trends, and correlations that may elude human analysts, machine learning models can uncover alpha-generating opportunities across various asset classes, including equities, fixed income, currencies, and commodities.
 
+#### Factor Investing
+
+Factor investing, also known as smart beta or systematic investing, is a strategy that involves targeting specific factors or characteristics that have historically been associated with higher returns. Common factors include value, momentum, size, quality, and low volatility. Machine learning techniques can enhance factor investing strategies by identifying optimal factor combinations, dynamically adjusting factor exposures, and incorporating non-linear relationships into factor models. By systematically capturing factor premiums, investors can enhance portfolio performance and generate alpha in a systematic and repeatable manner.
+
 #### Applications of Machine Learning in Financial Investments
 
 Machine learning algorithms can be applied to a wide range of investment tasks, including:
