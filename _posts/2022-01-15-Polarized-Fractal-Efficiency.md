@@ -113,7 +113,7 @@ df['PFE'] = pfe_values
 df['PFE'] = df['PFE'].ewm(span=5, adjust=False).mean()
 ```
 
-> Below is the Python code to generate and plot a Kock snowflake curve.
+> Below is the Python code to generate and plot a Kock snowflake curve. :snowflake:
 
 ``` py
 import matplotlib.pyplot as plt
