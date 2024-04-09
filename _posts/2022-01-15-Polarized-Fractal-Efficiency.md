@@ -11,7 +11,7 @@ In finance, one of the key tools gaining traction among analysts and traders ali
 
 But before delving into the intricacies of the PFE indicator, it's essential to grasp the concept of fractals. Fractals, as Mandelbrot elucidated, are mathematical patterns characterized by self-similarity. They reveal intricate structures that repeat themselves at different scales. This concept has found application in various fields, from describing natural phenomena to understanding market dynamics.
 
-> I have included the link to a Ted Talk by Mandelbrot at the end.
+> :white_check_mark: I have included the link to a Ted Talk by Mandelbrot at the end.
 
 Fractals are mathematical patterns that are characterized by self-similarity. If a fractal pattern is zoomed into, the exact same pattern appears. Few popular examples are the Sierpinski Gasket and the Koch Snowflake.
 
