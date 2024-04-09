@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Views on Quantitative Finance, ML and Portfolio Management
+title: Views on  Finance, Machine Learning and Quantitative Portfolio Management
 author: Vikas Lamba
 email: vlamb@duck.com
 
