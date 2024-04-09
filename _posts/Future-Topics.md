@@ -8,7 +8,9 @@ permalink: Navigate-to Higher-Alpha
 
 #### Decay
 > Factor Decay
+
 > Signal Decay
+
 > Momentum Decay
 
 #### Factors
