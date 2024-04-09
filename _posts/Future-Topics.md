@@ -9,8 +9,7 @@ permalink: Navigate-to Higher-Alpha
 #### Decay
 > 1. Factor Decay
 > 2. Signal Decay
-
-> Momentum Decay
+> 3. Momentum Decay
 
 #### Factors
 > 1. Factor mining
