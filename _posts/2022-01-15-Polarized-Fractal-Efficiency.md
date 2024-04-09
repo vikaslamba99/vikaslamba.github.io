@@ -23,11 +23,7 @@ The coastline is irregular, so a measure with a straight ruler, as in the next f
 
 But the estimate on the right is longer. If the the scale on the left is one, we have six units, but halving the unit gives us 15 rulers (L=7.5), not 12 (L=6). 
 
-![Koch curve Generator](/assets/Koch_curve_gen.gif "Kock Curve Generator")
-
 If we halved the scale again, we would get a similar result, a longer estimate of L. In general, as the ruler gets diminishingly small, the length gets infinitely large. The concept of length, begins to make little sense.
-
-![Koch curve](/assets/Koch_curve.gif "Kock Curve")
 
 The relation between length estimate and length of scale is linear on a log-log plot. Mandelbrot assigned the term (1-D) to the slope, so the functions are:
 
@@ -44,7 +40,15 @@ $$ D = 1-(-.24) = 1.24, $$
 
 which is a fractional value.
 
-Let us now see an example on how to find the dimensions of a fractal: KochCurve. We begin with a straight line of length 1, called the initiator. We then remove the middle third of the line, and replace it with two lines that each have the same length (1/3) as the remaining lines on each side. This new form is called the generator, because it specifies a rule that is used to generate a new form. The rule says to take each line and replace it with four lines, each one-third the length of the original. We do this iteratively ... without end. The length of the curve increases with each iteration. It has infinite length. But if we treat the Koch curve as we did the coastline, we find its fractal dimension to be 1.26. 
+Let us now see an example on how to find the dimensions of a fractal: KochCurve. We begin with a straight line of length 1, called the initiator. We then remove the middle third of the line, and replace it with two lines that each have the same length (1/3) as the remaining lines on each side. This new form is called the generator, because it specifies a rule that is used to generate a new form. The rule says to take each line and replace it with four lines, each one-third the length of the original. We do this iteratively ... without end. 
+
+![Koch curve Generator](/assets/Koch_curve_gen.gif "Kock Curve Generator")
+
+The length of the curve increases with each iteration. It has infinite length. 
+
+![Koch curve](/assets/Koch_curve.gif "Kock Curve")
+
+But if we treat the Koch curve as we did the coastline, we find its fractal dimension to be 1.26. 
 The same result obtained from:
 
 $$ D = \log(N)/\log(r) D = \log(4)/\log(3) = 1.26 $$
