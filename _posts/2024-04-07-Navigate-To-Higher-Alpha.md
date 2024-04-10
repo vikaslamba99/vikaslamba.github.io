@@ -17,8 +17,11 @@ Alpha (\alpha) represents the excess return on an investment above the return th
 $$ \alpha = R_{i} - (R_{f} + \beta_{i} x (R_{m} - R_{f})) $$
 
 where:
+
 $$ R_{i} $$ is the actual return of the investment,
+
 $$ R_{f} $$ is the risk-free rate,
+
 $$ \beta_{i} $$ is the beta of the investment, and
 $$ \R_{m} $$ is the return of the market.
 
@@ -37,6 +40,7 @@ One common model used in factor investing is the Fama-French three-factor model:
 $$ R_{i} = R_{f} + \beta_{i} x (R_{m} - R_{f}) + b_{SMB} x SMB + b_{HML} x HML + \epsilon $$ 
 
 where:
+
 $$ R_{i} $$ is the actual return of the investment,
 $$ R_{f} $$ is the risk-free rate,
 $$ R_{m} $$ is the return of the market,
