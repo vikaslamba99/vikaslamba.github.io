@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Navigate to Higher Alpha"
+title:  "Navigate to Higher <sup>Alpha</sup>"
 date:   2024-04-07 07:53:10 +0000
 categories: Algorithmic-Trading
 permalink: Navigate-to Higher-Alpha
@@ -12,7 +12,7 @@ Markets move fast and can be unpredictable, so insight and information that help
 
 #### Understanding Alpha in Financial Investments
 
-<sup>Alpha</sup> represents the excess return on an investment above the return that would be expected based on its level of risk. Achieving high <sup>alpha</sup> signifies outperforming the market and generating superior returns for investors. Traditionally, investors have relied on fundamental analysis, technical indicators, and expert judgment to identify lucrative investment opportunities. While these approaches have proven effective to some extent, they often fall short in capturing complex market dynamics and evolving trends.
+Alpha represents the excess return on an investment above the return that would be expected based on its level of risk. Achieving high <sup>alpha</sup> signifies outperforming the market and generating superior returns for investors. Traditionally, investors have relied on fundamental analysis, technical indicators, and expert judgment to identify lucrative investment opportunities. While these approaches have proven effective to some extent, they often fall short in capturing complex market dynamics and evolving trends.
 
 #### Harnessing the Power of Machine Learning
 
