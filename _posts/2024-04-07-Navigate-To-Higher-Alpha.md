@@ -17,10 +17,10 @@ Alpha (\alpha) represents the excess return on an investment above the return th
 $$ \alpha = R_{i} - (R_{f} + \beta_{i} x (R_{m} - R_{f})) $$
 
 where:
-$$ R_{i} is the actual return of the investment,
-R_{f} is the risk-free rate,
-\beta_{i} is the beta of the investment, and
-\R_{m} is the return of the market. $$
+$$ R_{i} $$ is the actual return of the investment,
+$$ R_{f} $$ is the risk-free rate,
+$$ \beta_{i} $$ is the beta of the investment, and
+$$ \R_{m} $$ is the return of the market.
 
 Achieving high <sup>Alpha</sup> signifies outperforming the market and generating superior returns for investors. Traditionally, investors have relied on fundamental analysis, technical indicators, and expert judgment to identify lucrative investment opportunities. While these approaches have proven effective to some extent, they often fall short in capturing complex market dynamics and evolving trends.
 
@@ -34,15 +34,15 @@ Factor investing, also known as smart beta or systematic investing, is a strateg
 
 One common model used in factor investing is the Fama-French three-factor model:
 
-$$ R_{i} = R_{f} + \beta_{i} x (R_{m} - R_{f}) + b_{SMB} x SMB + b_{HML} x HML + \epsilon 
+$$ R_{i} = R_{f} + \beta_{i} x (R_{m} - R_{f}) + b_{SMB} x SMB + b_{HML} x HML + \epsilon $$ 
 
 where:
-R_{i} is the actual return of the investment,
-R_{f} is the risk-free rate,
-R_{m} is the return of the market,
-SMB is the size premium factor (small minus big),
-HML is the value premium factor (high minus low), and
-\epsilon is the error term. $$
+$$ R_{i} $$ is the actual return of the investment,
+$$ R_{f} $$ is the risk-free rate,
+$$ R_{m} $$ is the return of the market,
+$$ SMB $$ is the size premium factor (small minus big),
+$$ HML $$ is the value premium factor (high minus low), and
+$$ \epsilon $$ is the error term.
 
 #### Applications of Machine Learning in Financial Investments
 
