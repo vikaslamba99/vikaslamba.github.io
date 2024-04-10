@@ -6,13 +6,13 @@ categories: Algorithmic-Trading
 permalink: Navigate-to Higher-Alpha
 ---
 
-In the fast-paced and competitive landscape of financial investments, the pursuit of higher <sup>Alpha </sup>, the measure of an investment's performance relative to the market—is the ultimate goal for investors. Traditional investment strategies often struggle to consistently achieve high <sup>alpha</sup> in today's dynamic markets. However, with the advent of machine learning techniques, investors now have powerful tools at their disposal to uncover hidden patterns, exploit market inefficiencies, and generate alpha with greater consistency and precision. <!--more--> 
+In the fast-paced and competitive landscape of financial investments, the pursuit of higher <sup>Alpha </sup>, the measure of an investment's performance relative to the market—is the ultimate goal for investors. Traditional investment strategies often struggle to consistently achieve high <sup>Alpha</sup> in today's dynamic markets. However, with the advent of machine learning techniques, investors now have powerful tools at their disposal to uncover hidden patterns, exploit market inefficiencies, and generate alpha with greater consistency and precision. <!--more--> 
 
 Markets move fast and can be unpredictable, so insight and information that helps plan and execute trades effectively and efficiently is critical. As a trader, it’s never been more important that you have accurate and latest data. Shifting market structure and regulation are adding complexity. Liquidity has become thinner. New asset classes like crypto-currencies are turning old markets on their heads. All of which means a trader needs more advanced tools to find new opportunities.
 
 #### Understanding Alpha in Financial Investments
 
-Alpha (\alpha) represents the excess return on an investment above the return that would be expected based on its level of risk. It is commonly calculated using the Capital Asset Pricing Model (CAPM):
+Alpha ($$ \alpha $$) represents the excess return on an investment above the return that would be expected based on its level of risk. It is commonly calculated using the Capital Asset Pricing Model (CAPM):
 
 $$ \alpha = R_{i} - (R_{f} + \beta_{i} x (R_{m} - R_{f})) $$
 
