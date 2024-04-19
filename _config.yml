@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Views on ML and Quantitative Portfolio Management
+title: Quantitative Portfolio Management
 author: Vikas Lamba
 email: vlamb@duck.com
 
@@ -27,7 +27,8 @@ email: vlamb@duck.com
   # email: vlamb@duck.com
   
 description: >- # this means to ignore newlines until "baseurl:"
-  Any technology distinguishable from magic is insufficiently advanced.
+  # Any technology distinguishable from magic is insufficiently advanced.
+  "There are two risks with AI, using it and not using it.” - David Berglund
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://vikaslamba99.github.io
 github_username:  vikaslamba99
