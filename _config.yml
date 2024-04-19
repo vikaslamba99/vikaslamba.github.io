@@ -26,8 +26,7 @@ email: vlamb@duck.com
   # name: Vikas Lamba
   # email: vlamb@duck.com
   
-description: >- # this means to ignore newlines until "baseurl:"
-  # Any technology distinguishable from magic is insufficiently advanced.
+description: >- # this means to ignore newlines until "baseurl:" # Any technology distinguishable from magic is insufficiently advanced.
   "There are two risks with AI, using it and not using it.” - David Berglund
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://vikaslamba99.github.io
