@@ -4,7 +4,7 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <div class="footer-col footer-col-1" width="20%">
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -19,7 +19,7 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-2" width="30%">
         <!--{%- include social.html -%} -->
         <ul class="social-media-list">
           {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">{{ site.github_username| escape }}</span></a></li>{%- endif -%}
@@ -27,7 +27,7 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
+      <div class="footer-col footer-col-3" width="50%">
         <p>{{- site.description | escape -}}</p>
       </div>
     </div>
