@@ -110,6 +110,10 @@ Key disadvantages are the assumptions of linearity and Gaussian noise that finan
 
 The basic Kalman filter is meant for linear systems, but it can be adapted to model non-linear transition and observation functions effectively. To handle such cases, Extended Kalman Filters (EKF) and Unscented Kalman Filters (UKF) are available, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
 
+#### Extended Kalman filter (EKF)
+
+The extended Kalman filter (EKF) is the most popular estimation algorithm in practical applications. It is based on a linear approximation to the Kalman filter theory. There are thousands of variations of the basic EKF design, which are intended to mitigate the effects of nonlinearities, non-Gaussian errors, ill-conditioning of the covariance matrix and uncertainty in the parameters of the problem.
+
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
 > 2. A. Javaheri, D. Lautier, and A. Galli. Wilmott Magazine, 2003 (3): 67--83 (2003)
