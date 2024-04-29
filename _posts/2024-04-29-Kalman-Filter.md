@@ -12,7 +12,7 @@ The concept of noise extends to various domains such as data science and finance
 
 The Kalman filter stands out as a powerful tool in dynamic linear modeling, particularly for analyzing sequential data like time series. Unlike traditional methods such as moving averages or exponential moving averages, which rely on fixed-size windows or predetermined weights, the Kalman filter dynamically adjusts its estimates based on incoming information. It does so by incorporating new data into its calculations, continually updating its predictions of the current state of the time series through a probabilistic framework.
 
-Specifically, the Kalman filter operates as a probabilistic model that accounts for a sequence of observations, denoted as z1, z2, …, zT, and their corresponding hidden states, represented as x1, x2, …, xT. This model iteratively refines its estimates of the hidden states by recursively applying two main steps: prediction and update. In the prediction step, the filter forecasts the next state based on the previous state and the system dynamics. Then, in the update step, it assimilates the most recent observation, refining its prediction based on the observed data and its associated uncertainty.
+Specifically, the Kalman filter operates as a probabilistic model that accounts for a sequence of observations, denoted as $$ z_{1}, z_{2}, …, z_{T} $$, and their corresponding hidden states, represented as $$ x_{1}, x_{2}, …, x_{T} $$. This model iteratively refines its estimates of the hidden states by recursively applying two main steps: prediction and update. In the prediction step, the filter forecasts the next state based on the previous state and the system dynamics. Then, in the update step, it assimilates the most recent observation, refining its prediction based on the observed data and its associated uncertainty.
 
 By dynamically adjusting its estimates in response to new information, the Kalman filter excels in scenarios where data evolves over time and where accurately tracking the underlying process is paramount. Its versatility and adaptability make it a cornerstone in various fields, including engineering, finance, and robotics, where real-time decision-making relies on precise and up-to-date information.
 
@@ -28,28 +28,28 @@ The algorithm operates as follows.
 
   1. Input Parameters - Receive a mathematical model of the system comprising:
 <ul>
-<li>The transition matrix (commonly denoted as A), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.</li>
-<li>The observation matrix (typically denoted as H), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.</li>
-<li>Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector ut).</li>
+<li>The transition matrix (commonly denoted as $$ A $$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.</li>
+<li>The observation matrix (typically denoted as $$ H $$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.</li>
+<li>Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector $$ u_{t} $$).</li>
 <li>Covariance matrices for transition noise (Q) and measurement noise (R).</li>
 </ul>
 
   2. Initial Estimation:
 <ul>
-<li>Accept an initial estimate (μ0) of the system state and its estimation error (σ0).</li>
+<li>Accept an initial estimate ($$ μ_{0} $$) of the system state and its estimation error ($$ σ_{0} $$).</li>
 </ul>
 
   3. At each timestep:
 <ul>
 <li>Estimate the current system state (xt) using the transition matrix.</li>
-<li>Receive new measurements (zt).</li>
+<li>Receive new measurements ($$ z_{t} $$).</li>
 <li>Update the current state estimate (xt) and its covariance matrix (Pt) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.</li>
 </ul>
 
 The Kalman filter relies on the following assumptions to effectively recover the hidden state:
 
   1. Linearity: The system under consideration behaves linearly.
-  2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state (xt) depends solely on the most recent prior state (xt-1).
+  2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state ($$ x_{t} $$) depends solely on the most recent prior state ($$ x_{t-1} $$).
   3. Gaussian Noise: Measurements are affected by Gaussian, uncorrelated noise with a constant covariance.
 
 Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), albeit with some key distinctions. In the Kalman filter, the latent variable's state space is continuous, and both hidden and observed variables follow normal distributions, typically denoted with mean and standard deviation sigma.
@@ -57,6 +57,9 @@ Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), a
 The basic Kalman filter is meant for linear systems, but challenging scientific problems, for example in satellite navigation, are nonlinear and therefore it was necessary to implement a special version of the Kalman filter called the extended Kalman Filter (EKF).
 
 A Kalman filter can be adapted to model non-linear transition and observation functions effectively. To handle such cases, extended and unscented Kalman filters are available, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
+
+Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates.
+As we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities, we will be discussing the Extended Kalman Filter (EKF) as well as the Unscented Kalman Filter (UKF).
 
 Alpha ($$ \alpha $$) represents the excess return on an investment above the return that would be expected based on its level of risk. It is commonly calculated using the Capital Asset Pricing Model (CAPM):
 
