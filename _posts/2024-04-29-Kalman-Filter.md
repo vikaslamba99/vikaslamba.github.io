@@ -49,15 +49,15 @@ The Kalman filter relies on the following assumptions to effectively recover the
 Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), albeit with some key distinctions. In the Kalman filter, the latent variable's state space is continuous, and both hidden and observed variables follow normal distributions, typically denoted with mean $$ \mu $$ and standard deviation $$ \sigma $$.
 
 Assuming the following linear equation for evolution of the state:
-$$ x_{k} = F_{k} X_{k−1} + W_{k} $$
+$$ X_{k} = F_{k} X_{k−1} + W_{k} $$
 
 where:
 
-$$ x_{k} $$ is the true state at time $$t_{k}$$,
+$$ X_{k} $$ is the true state at time $$t_{k}$$,
 
 $$ F_{k} $$ iis the state transition matrix assumed to be time dependent,
 
-$$ w_{k} $$ is the process noise assumed to be a multivariate normal distribution with zero mean and covariance $$Q_{k}$$, that is, $$w_{k} ∼ N(0,Q_{k})$$.
+$$ W_{k} $$ is the process noise assumed to be a multivariate normal distribution with zero mean and covariance $$Q_{k}$$, that is, $$W_{k} ∼ N(0,Q_{k})$$.
 
 The basic Kalman filter is meant for linear systems, but challenging scientific problems, for example in satellite navigation, are nonlinear and therefore it was necessary to implement a special version of the Kalman filter called the extended Kalman Filter (EKF).
 
@@ -66,6 +66,12 @@ A Kalman filter can be adapted to model non-linear transition and observation fu
 Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates.
 As we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities, we will be discussing the Extended Kalman Filter (EKF) as well as the Unscented Kalman Filter (UKF).
 
+# Refs
+1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
+2. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
+
+@mentions 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
+  
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
 > 2. A. Javaheri, D. Lautier, and A. Galli. Wilmott Magazine, 2003 (3): 67--83 (2003)
