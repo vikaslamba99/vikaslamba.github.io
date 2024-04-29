@@ -27,12 +27,12 @@ Notably, the Kalman filter excels in efficiently estimating future state variabl
 The algorithm operates as follows.
 
   1. Input Parameters - Receive a mathematical model of the system comprising:
-<ul>
-<li>The transition matrix (commonly denoted as $$A$$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.</li>
-<li>The observation matrix (typically denoted as $$H$$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.</li>
-<li>Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector $$ u_{t} $$).</li>
-<li>Covariance matrices for transition noise (Q) and measurement noise (R).</li>
-</ul>
+
+* The transition matrix (commonly denoted as $$A$$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.
+* The observation matrix (typically denoted as $$H$$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.
+* Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector $$ u_{t} $$).
+* Covariance matrices for transition noise (Q) and measurement noise (R).
+
 
   2. Initial Estimation:
 <ul>
