@@ -22,7 +22,7 @@ The filter prioritizes high-accuracy estimates, crucial for making precise predi
 
 Notably, the Kalman filter excels in efficiently estimating future state variables within nonlinear prediction systems. Regarded as an optimal estimator, it proves particularly valuable in predictive model development, especially when dealing with limited dataset sizes.
 
-#### Understanding Alpha in Financial Investments
+#### How does it work?
 
 The algorithm operates as follows.
 
