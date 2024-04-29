@@ -69,9 +69,47 @@ As we know in reality, in a temporal and spatial time-series of financial data (
 The Kalman filter is particularly useful for rolling estimates of datavalues or model parameters that change over time. This is because it adapts its estimates at every time step based on new observations and tends to weigh recent observations more heavily.
 Except for conventional moving averages, the Kalman filter does not require us to specify the length of a window used for the estimate. Rather, we start out with our estimate of the mean and covariance of the hidden state and let the Kalman filter correct our estimates based on periodic observations.
 
+> The following Python code example shows how to apply the Kalman filter to smoothen the Apple stock price series for the 2019-21 period.
+
+I initialize the KalmanFilter with unit covariance matrices and zero means.
+
+``` py
+stock_prices = us_stock_prices['AAPL']['Close'].loc['2019':'2021']
+```
+
 Kalman filter can be applied using pykalman in Python.
 
+``` py
+from pykalman import KalmanFilter
+kf = KalmanFilter(transition_matrices = [1],
+      observation_matrices = [1],
+      initial_state_mean = 0,
+      initial_state_covariance = 1,
+      observation_covariance=1,
+      transition_covariance=.01)
+```
 
+Then, I run the filter method to trigger the forward algorithm, which iteratively estimates the hidden state, that is, the mean of the time series:
+
+``` py
+s_means, _ = kf.filter(stock_prices)
+```
+
+Finally, we add moving averages for comparison and plot the result:
+
+``` py
+# Compare with moving average
+stock_prices_smoothed = stock_prices.to_frame('Close')
+stock_prices_smoothed['Kalman Filter'] = s_means
+for months in [1,2,3]:
+    stock_prices_smoothed[f'MA ({months}m)'] = stock_prices.rolling(window=months*33).mean()
+
+ax = stock_prices_smoothed.plot(title='Kalman Filter vs Moving Average', figsize=(14,6), lw=1, rot=0)
+ax.set_xlabel('')
+ax.set_ylabel('Chosen Stock')
+plt.tight_layout()
+sns.despine();
+```
   
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
