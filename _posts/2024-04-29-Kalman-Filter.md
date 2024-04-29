@@ -39,11 +39,10 @@ The algorithm operates as follows.
 * Accept an initial estimate ($$μ_{0}$$) of the system state and its estimation error ($$σ_{0}$$).
 
   3. At each timestep:
-<ul>
-<li>Estimate the current system state ($$x_{t}$$) using the transition matrix.</li>
-<li>Receive new measurements ($$z_{t}$$).</li>
-<li>Update the current state estimate ($$x_{t}$$) and its covariance matrix ($$P_{t}$$) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.</li>
-</ul>
+
+* Estimate the current system state ($$x_{t}$$) using the transition matrix.
+* Receive new measurements ($$z_{t}$$).
+* Update the current state estimate ($$x_{t}$$) and its covariance matrix ($$P_{t}$$) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.
 
 The Kalman filter relies on the following assumptions to effectively recover the hidden state:
 
