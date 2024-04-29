@@ -55,29 +55,17 @@ where:
 
 $$ X_{k} $$ is the true state at time $$t_{k}$$,
 
-$$ F_{k} $$ iis the state transition matrix assumed to be time dependent,
+$$ F_{k} $$ is the state transition matrix assumed to be time dependent,
 
 $$ W_{k} $$ is the process noise assumed to be a multivariate normal distribution with zero mean and covariance $$Q_{k}$$, that is, $$W_{k} ∼ N(0,Q_{k})$$.
 
-The basic Kalman filter is meant for linear systems, but challenging scientific problems, for example in satellite navigation, are nonlinear and therefore it was necessary to implement a special version of the Kalman filter called the extended Kalman Filter (EKF).
-
-A Kalman filter can be adapted to model non-linear transition and observation functions effectively. To handle such cases, extended and unscented Kalman filters are available, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
-
-Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates.
-As we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities, we will be discussing the Extended Kalman Filter (EKF) as well as the Unscented Kalman Filter (UKF).
-
-The Kalman filter is particularly useful for rolling estimates of datavalues or model parameters that change over time. This is because it adapts its estimates at every time step based on new observations and tends to weigh recent observations more heavily.
-Except for conventional moving averages, the Kalman filter does not require us to specify the length of a window used for the estimate. Rather, we start out with our estimate of the mean and covariance of the hidden state and let the Kalman filter correct our estimates based on periodic observations.
-
 > The following Python code example shows how to apply the Kalman filter to smoothen the Apple stock price series for the 2019-21 period.
-
-I initialize the KalmanFilter with unit covariance matrices and zero means.
 
 ``` py
 stock_prices = us_stock_prices['AAPL']['Close'].loc['2019':'2021']
 ```
 
-Kalman filter can be applied using pykalman in Python.
+Kalman filter can be applied using pykalman in Python. I initialize the Kalman Filter with unit covariance matrices and zero means.
 
 ``` py
 from pykalman import KalmanFilter
@@ -114,6 +102,13 @@ sns.despine();
 ![Kalman Filter](/assets/kalman.png "Kalman Filter")
 
 The resulting plot above shows that the Kalman filter performs similarly to a 1-month moving average but is more sensitive to changes in the behavior of the time series.
+
+The Kalman filter is particularly useful for rolling estimates of data values or model parameters that change over time. This is because it adapts its estimates at every time step based on new observations and tends to weigh recent observations more heavily.
+Unlike conventional moving averages, the Kalman filter does not require us to specify the length of a window used for the estimate. Rather, we start out with our estimate of the mean and covariance of the hidden state and let the Kalman filter correct our estimates based on periodic observations.
+
+Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates and as we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities.
+
+The basic Kalman filter is meant for linear systems, but it can be adapted to model non-linear transition and observation functions effectively. To handle such cases, Extended Kalman Filters (EKF) and Unscented Kalman Filters (UKF) are available, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
 
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
