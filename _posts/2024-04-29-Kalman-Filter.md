@@ -27,22 +27,18 @@ Notably, the Kalman filter excels in efficiently estimating future state variabl
 The algorithm operates as follows.
 
   1. Input Parameters - Receive a mathematical model of the system comprising:
-
-    * The transition matrix (commonly denoted as $$A$$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.
-    * The observation matrix (typically denoted as $$H$$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.
-    * Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector $$ u_{t} $$).
-    * Covariance matrices for transition noise (Q) and measurement noise (R).
-
+* The transition matrix (commonly denoted as $$A$$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.
+* The observation matrix (typically denoted as $$H$$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.
+* Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector $$ u_{t} $$).
+* Covariance matrices for transition noise (Q) and measurement noise (R).
 
   2. Initial Estimation:
-
-    * Accept an initial estimate ($$μ_{0}$$) of the system state and its estimation error ($$σ_{0}$$).
+* Accept an initial estimate ($$μ_{0}$$) of the system state and its estimation error ($$σ_{0}$$).
 
   3. At each timestep:
-
-    * Estimate the current system state ($$x_{t}$$) using the transition matrix.
-    * Receive new measurements ($$z_{t}$$).
-    * Update the current state estimate ($$x_{t}$$) and its covariance matrix ($$P_{t}$$) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.
+* Estimate the current system state ($$x_{t}$$) using the transition matrix.
+* Receive new measurements ($$z_{t}$$).
+* Update the current state estimate ($$x_{t}$$) and its covariance matrix ($$P_{t}$$) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.
 
 The Kalman filter relies on the following assumptions to effectively recover the hidden state:
 
