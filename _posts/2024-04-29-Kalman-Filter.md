@@ -28,31 +28,42 @@ The algorithm operates as follows.
 
   1. Input Parameters - Receive a mathematical model of the system comprising:
 <ul>
-<li>The transition matrix (commonly denoted as $$ A $$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.</li>
-<li>The observation matrix (typically denoted as $$ H $$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.</li>
+<li>The transition matrix (commonly denoted as $$A$$), indicating the system's evolution from one state to another. For example, in modeling a car's movement, kinematic equations could compute the subsequent position and velocity based on prior values. Alternatively, for a stable system, a random walk model might suffice.</li>
+<li>The observation matrix (typically denoted as $$H$$), specifying the expected next measurement based on the predicted state. In simpler cases like measuring a car's position, it might directly extract position values from the state. In more complex scenarios such as linear regression, the state represents model coefficients, and the next measurement is predicted from the linear equation.</li>
 <li>Any control factors influencing state transitions but not directly measured (summarized in matrix B and time-varying control vector $$ u_{t} $$).</li>
 <li>Covariance matrices for transition noise (Q) and measurement noise (R).</li>
 </ul>
 
   2. Initial Estimation:
 <ul>
-<li>Accept an initial estimate ($$ μ_{0} $$) of the system state and its estimation error ($$ σ_{0} $$).</li>
+<li>Accept an initial estimate ($$μ_{0}$$) of the system state and its estimation error ($$σ_{0}$$).</li>
 </ul>
 
   3. At each timestep:
 <ul>
-<li>Estimate the current system state (xt) using the transition matrix.</li>
-<li>Receive new measurements ($$ z_{t} $$).</li>
-<li>Update the current state estimate (xt) and its covariance matrix (Pt) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.</li>
+<li>Estimate the current system state ($$x_{t}$$) using the transition matrix.</li>
+<li>Receive new measurements ($$z_{t}$$).</li>
+<li>Update the current state estimate ($$x_{t}$$) and its covariance matrix ($$P_{t}$$) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.</li>
 </ul>
 
 The Kalman filter relies on the following assumptions to effectively recover the hidden state:
 
   1. Linearity: The system under consideration behaves linearly.
-  2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state ($$ x_{t} $$) depends solely on the most recent prior state ($$ x_{t-1} $$).
+  2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state ($$ x_{t} $$) depends solely on the most recent prior state ($$x_{t-1}$$).
   3. Gaussian Noise: Measurements are affected by Gaussian, uncorrelated noise with a constant covariance.
 
 Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), albeit with some key distinctions. In the Kalman filter, the latent variable's state space is continuous, and both hidden and observed variables follow normal distributions, typically denoted with mean and standard deviation sigma.
+
+Assuming the following linear equation for evolution of the state:
+$$ x_{k} = F_{k}x_{k−1} + w_{k} $$
+
+where:
+
+$$ x_{k} $$ is the true state at time $$t_{k}$$,
+
+$$ F_{k} $$ iis the state transition matrix assumed to be time dependent,
+
+$$ w_{k} $$ is the process noise assumed to be a multivariate normal distribution with zero mean and covariance $$Q_{k}$$, that is, $$w_{k} ∼ N(0,Q_{k})$$.
 
 The basic Kalman filter is meant for linear systems, but challenging scientific problems, for example in satellite navigation, are nonlinear and therefore it was necessary to implement a special version of the Kalman filter called the extended Kalman Filter (EKF).
 
@@ -61,61 +72,7 @@ A Kalman filter can be adapted to model non-linear transition and observation fu
 Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates.
 As we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities, we will be discussing the Extended Kalman Filter (EKF) as well as the Unscented Kalman Filter (UKF).
 
-Alpha ($$ \alpha $$) represents the excess return on an investment above the return that would be expected based on its level of risk. It is commonly calculated using the Capital Asset Pricing Model (CAPM):
-
-$$ \alpha = R_{i} - (R_{f} + \beta_{i} x (R_{m} - R_{f})) $$
-
-where:
-
-$$ R_{i} $$ is the actual return of the investment,
-
-$$ R_{f} $$ is the risk-free rate,
-
-$$ \beta_{i} $$ is the beta of the investment, and
-
-$$ R_{m} $$ is the return of the market.
-
-Achieving high <sup>Alpha</sup> signifies outperforming the market and generating superior returns for investors. Traditionally, investors have relied on fundamental analysis, technical indicators, and expert judgment to identify lucrative investment opportunities. While these approaches have proven effective to some extent, they often fall short in capturing complex market dynamics and evolving trends.
-
-#### Harnessing the Power of Machine Learning
-
-Machine learning, a subset of artificial intelligence, offers a revolutionary approach to investment management by leveraging advanced algorithms to analyze vast datasets and extract actionable insights. By identifying patterns, trends, and correlations that may elude human analysts, machine learning models can uncover alpha-generating opportunities across various asset classes, including equities, fixed income, currencies, and commodities.
-
-#### Factor Investing
-
-Factor investing, also known as smart beta or systematic investing, is a strategy that involves targeting specific factors or characteristics that have historically been associated with higher returns. Common factors include value, momentum, size, quality, and low volatility. Machine learning techniques can enhance factor investing strategies by identifying optimal factor combinations, dynamically adjusting factor exposures, and incorporating non-linear relationships into factor models. By systematically capturing factor premiums, investors can enhance portfolio performance and generate Alpha in a systematic and repeatable manner.
-
-One common model used in factor investing is the Fama-French three-factor model:
-
-$$ R_{i} = R_{f} + \beta_{i} x (R_{m} - R_{f}) + b_{SMB} x SMB + b_{HML} x HML + \epsilon $$ 
-
-where:
-
-$$ R_{i} $$ is the actual return of the investment,
-
-$$ R_{f} $$ is the risk-free rate,
-
-$$ R_{m} $$ is the return of the market,
-
-$$ SMB $$ is the size premium factor (small minus big),
-
-$$ HML $$ is the value premium factor (high minus low), and
-
-$$ \epsilon $$ is the error term.
-
-#### Applications of Machine Learning in Financial Investments
-
-Machine learning algorithms can be applied to a wide range of investment tasks, including:
-
-Predictive Modeling: Machine learning models can forecast asset prices, volatility, and other market variables with greater accuracy than traditional econometric methods. By incorporating diverse data sources, including financial statements, market data, and alternative data sources such as satellite imagery and social media sentiment, these models can identify predictive signals that drive alpha generation.
-
-Portfolio Optimization: Machine learning techniques such as reinforcement learning and genetic algorithms can optimize investment portfolios to maximize risk-adjusted returns. These models can dynamically adjust portfolio allocations based on changing market conditions and evolving investment objectives, thereby enhancing portfolio efficiency and alpha generation potential.
-
-Risk Management: Machine learning models can improve risk management by identifying and mitigating potential sources of portfolio risk. Through techniques such as anomaly detection, clustering, and stress testing, these models can identify hidden risks and vulnerabilities within investment portfolios, enabling investors to proactively manage risk exposures and preserve capital.
-
-Achieving high <sup>alpha</sup> in financial investments requires a proactive and data-driven approach that leverages the power of machine learning. By harnessing advanced algorithms and sophisticated modeling techniques, investors can gain deeper insights into market dynamics, identify alpha-generating opportunities, and optimize portfolio performance. As machine learning continues to evolve and mature, it is poised to revolutionize the way investors approach investment management, unlocking new possibilities for alpha generation and value creation.
-
 > References:
-> 1. Lopez de Prado, M. (2020). Advances in Financial Machine Learning. Wiley.
-> 2. Yiu, S. (2019). Machine Learning for Factor Investing: Finding Alpha in Factor Returns. Palgrave Macmillan.
+> 1. Dixon, M. F., Halperin, I., Bilokon, P. (2020). Machine Learning in Finance. Springer.
+> 2. Alireza Javaheri, et al. Filtering in Finance
 > 3. Guo, M., & Zhang, Q. (2021). Machine Learning for Asset Management: A Primer. Journal of Portfolio Management, 47(2), 114-128.
