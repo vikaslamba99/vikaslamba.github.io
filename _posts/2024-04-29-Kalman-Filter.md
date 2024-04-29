@@ -35,9 +35,8 @@ The algorithm operates as follows.
 
 
   2. Initial Estimation:
-<ul>
-<li>Accept an initial estimate ($$μ_{0}$$) of the system state and its estimation error ($$σ_{0}$$).</li>
-</ul>
+
+* Accept an initial estimate ($$μ_{0}$$) of the system state and its estimation error ($$σ_{0}$$).
 
   3. At each timestep:
 <ul>
