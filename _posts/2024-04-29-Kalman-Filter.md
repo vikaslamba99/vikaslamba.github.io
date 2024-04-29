@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Kalman Filters"
@@ -7,7 +6,7 @@ categories: Algorithmic-Trading
 permalink: Kalman-Filters
 ---
 
-Noise in data refers to any unwanted or irrelevant information that interferes with the transmission or processing of a signal. In signal processing, the goal is to extract the useful information (the signal) from the noise. This can be particularly challenging in scenarios like wireless communication, where signals are transmitted through the air and can be distorted or contaminated by various environmental factors. Techniques such as filtering and noise reduction are used to mitigate the effects of noise and recover the original signal as accurately as possible.
+Noise in data refers to any unwanted or irrelevant information that interferes with the transmission or processing of a signal. In signal processing, the goal is to extract the useful information (the signal) from the noise. This can be particularly challenging in scenarios like wireless communication, where signals are transmitted through the air and can be distorted or contaminated by various environmental factors. Techniques such as filtering and noise reduction are used to mitigate the effects of noise and recover the <!--more--> original signal as accurately as possible.
 
 The concept of noise extends to various domains such as data science and finance, where raw data typically contains valuable information, like trading signals, amidst irrelevant noise. Extracting and distinguishing this meaningful data from extraneous noise presents a significant challenge, particularly when the true signal is unknown.
 
@@ -45,7 +44,7 @@ The algorithm operates as follows.
 <li>Estimate the current system state (xt) using the transition matrix.</li>
 <li>Receive new measurements (zt).</li>
 <li>Update the current state estimate (xt) and its covariance matrix (Pt) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.</li>
-</ul>ul>
+</ul>
 
 The Kalman filter relies on the following assumptions to effectively recover the hidden state:
 
