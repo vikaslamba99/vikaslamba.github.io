@@ -110,7 +110,9 @@ ax.set_ylabel('Chosen Stock')
 plt.tight_layout()
 sns.despine();
 ```
-  
+
+![coastline](/assets/kalman.png "Kalman Filter")
+
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
 > 2. A. Javaheri, D. Lautier, and A. Galli. Wilmott Magazine, 2003 (3): 67--83 (2003)
