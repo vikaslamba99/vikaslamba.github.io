@@ -47,6 +47,12 @@ The algorithm operates as follows.
 <li>Update the current state estimate (xt) and its covariance matrix (Pt) by considering the conditional probability of measurements given the state, while factoring in uncertainties in both measurement and state estimation.</li>
 </ul>ul>
 
+The Kalman filter relies on the following assumptions to effectively recover the hidden state:
+
+  1. Linearity: The system under consideration behaves linearly.
+  2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state (xt) depends solely on the most recent prior state (xt-1).
+  3. Gaussian Noise: Measurements are affected by Gaussian, uncorrelated noise with a constant covariance.
+
 
 Alpha ($$ \alpha $$) represents the excess return on an investment above the return that would be expected based on its level of risk. It is commonly calculated using the Capital Asset Pricing Model (CAPM):
 
