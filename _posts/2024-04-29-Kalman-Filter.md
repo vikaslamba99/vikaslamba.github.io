@@ -67,6 +67,6 @@ Key disadvantages are the assumptions of linearity and Gaussian noise that finan
 As we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities, we will be discussing the Extended Kalman Filter (EKF) as well as the Unscented Kalman Filter (UKF).
 
 > References:
-> 1. Dixon, M. F., Halperin, I., Bilokon, P. (2020). Machine Learning in Finance. Springer.
-> 2. Alireza Javaheri, et al. Filtering in Finance
+> 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
+> 2. A. Javaheri, D. Lautier, and A. Galli. Wilmott Magazine, 2003 (3): 67--83 (2003)
 > 3. Guo, M., & Zhang, Q. (2021). Machine Learning for Asset Management: A Primer. Journal of Portfolio Management, 47(2), 114-128.
