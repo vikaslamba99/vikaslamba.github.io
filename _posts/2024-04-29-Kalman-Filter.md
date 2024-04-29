@@ -111,7 +111,10 @@ plt.tight_layout()
 sns.despine();
 ```
 
-![coastline](/assets/kalman.png "Kalman Filter")
+![Kalman Filter](/assets/kalman.png "Kalman Filter")
+Figure : Kalman filter versus moving average
+
+The resulting plot above shows that the Kalman filter performs similarly to a 1-month moving average but is more sensitive to changes in the behavior of the time series.
 
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
