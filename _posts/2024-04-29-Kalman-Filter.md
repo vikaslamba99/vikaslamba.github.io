@@ -46,10 +46,10 @@ The Kalman filter relies on the following assumptions to effectively recover the
   2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state ($$ x_{t} $$) depends solely on the most recent prior state ($$x_{t-1}$$).
   3. Gaussian Noise: Measurements are affected by Gaussian, uncorrelated noise with a constant covariance.
 
-Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), albeit with some key distinctions. In the Kalman filter, the latent variable's state space is continuous, and both hidden and observed variables follow normal distributions, typically denoted with mean and standard deviation sigma.
+Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), albeit with some key distinctions. In the Kalman filter, the latent variable's state space is continuous, and both hidden and observed variables follow normal distributions, typically denoted with mean $$ \mu $$ and standard deviation $$ \sigma $$.
 
 Assuming the following linear equation for evolution of the state:
-$$ x_{k} = F_{k}x_{k−1} + w_{k} $$
+$$ x_{k} = F_{k} X_{k−1} + W_{k} $$
 
 where:
 
