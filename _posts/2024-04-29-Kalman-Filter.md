@@ -52,6 +52,11 @@ The Kalman filter relies on the following assumptions to effectively recover the
   2. Markovian Property: The hidden state process follows a Markov chain, meaning that the current state (xt) depends solely on the most recent prior state (xt-1).
   3. Gaussian Noise: Measurements are affected by Gaussian, uncorrelated noise with a constant covariance.
 
+Hence, the Kalman filter shares similarities with a hidden Markov model (HMM), albeit with some key distinctions. In the Kalman filter, the latent variable's state space is continuous, and both hidden and observed variables follow normal distributions, typically denoted with mean and standard deviation sigma.
+
+The basic Kalman filter is meant for linear systems, but challenging scientific problems, for example in satellite navigation, are nonlinear and therefore it was necessary to implement a special version of the Kalman filter called the extended Kalman Filter (EKF).
+
+A Kalman filter can be adapted to model non-linear transition and observation functions effectively. To handle such cases, extended and unscented Kalman filters are available, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
 
 Alpha ($$ \alpha $$) represents the excess return on an investment above the return that would be expected based on its level of risk. It is commonly calculated using the Capital Asset Pricing Model (CAPM):
 
