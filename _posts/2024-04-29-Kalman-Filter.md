@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kalman Filters"
+title:  "Kalman Filter :: Applications in Finance"
 date:   2024-04-29 07:53:10 +0000
 categories: Algorithmic-Trading
 permalink: Kalman-Filters
