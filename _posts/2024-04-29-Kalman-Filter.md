@@ -66,6 +66,12 @@ A Kalman filter can be adapted to model non-linear transition and observation fu
 Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates.
 As we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities, we will be discussing the Extended Kalman Filter (EKF) as well as the Unscented Kalman Filter (UKF).
 
+The Kalman filter is particularly useful for rolling estimates of datavalues or model parameters that change over time. This is because it adapts its estimates at every time step based on new observations and tends to weigh recent observations more heavily.
+Except for conventional moving averages, the Kalman filter does not require us to specify the length of a window used for the estimate. Rather, we start out with our estimate of the mean and covariance of the hidden state and let the Kalman filter correct our estimates based on periodic observations.
+
+Kalman filter can be applied using pykalman in Python.
+
+
   
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
