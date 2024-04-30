@@ -33,6 +33,9 @@ Fusing multiple estimates
 The Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF) are heuristic approaches to using Kalman filtering for nonlinear systems.
 UKF. When the system dynamics and observation models are highly nonlinear, the Unscented Kalman Filter (UKF) can be an improvement over the EKF. The UKF is based on the unscented transformation, which is a method for computing the statistics of a random variable x that undergoes a nonlinear transformation (y = д(x)). The random variable x is sampled using a carefully chosen set of sigma points and these sample points are propagated through the nonlinear function д. The UKF tends to be more robust and accurate than the EKF but has higher computation overhead due to the sampling process.
 
+Extended Kalman filter (EKF)
+The extended Kalman filter (EKF) is the most popular estimation algorithm in practical applications. It is based on a linear approximation to the Kalman filter theory. There are thousands of variations of the basic EKF design, which are intended to mitigate the effects of nonlinearities, non-Gaussian errors, ill-conditioning of the covariance matrix and uncertainty in the parameters of the problem.
+
 | Left | Left | Left | Left |
 |-------:|:------|-----------|:---------:|
 | Feature | Kalman Filter | Particle Filter| Extended Kalman Filter |
