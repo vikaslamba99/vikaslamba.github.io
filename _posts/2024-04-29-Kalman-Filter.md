@@ -108,11 +108,10 @@ Unlike conventional moving averages, the Kalman filter does not require us to sp
 
 Key disadvantages are the assumptions of linearity and Gaussian noise that financial data often violates and as we know in reality, in a temporal and spatial time-series of financial data (e.g. stock prices) there are common nonlinearities.
 
-The basic Kalman filter is meant for linear systems, but it can be adapted to model non-linear transition and observation functions effectively. To handle such cases, Extended Kalman Filters (EKF) and Unscented Kalman Filters (UKF) are available, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
+The basic Kalman filter is meant for linear systems, but it can be adapted to model non-linear transition and observation functions effectively. To handle such cases, Extended Kalman Filters (EKF) and Unscented Kalman Filters (UKF) are used, with the latter conveniently integrated into pykalman. These filters are capable of handling scenarios where noise is not simply additive, such as when it's proportional to the measurement's size. Moreover, they allow for the specification of non-Gaussian errors, a particularly useful feature when dealing with financial data, which often exhibits heavy-tailed distributions.
 
-#### Extended Kalman filter (EKF)
-
-The extended Kalman filter (EKF) is the most popular estimation algorithm in practical applications. It is based on a linear approximation to the Kalman filter theory. There are thousands of variations of the basic EKF design, which are intended to mitigate the effects of nonlinearities, non-Gaussian errors, ill-conditioning of the covariance matrix and uncertainty in the parameters of the problem.
+The Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF) are heuristic approaches to using Kalman filtering for nonlinear systems.
+When the system dynamics and observation models are highly nonlinear, the Unscented Kalman Filter (UKF) can be an improvement over the EKF. The UKF is based on the unscented transformation, which is a method for computing the statistics of a random variable $$x$$ that undergoes a nonlinear transformation $$(y = g(x))$$. The random variable $$x$$ is sampled using a carefully chosen set of sigma points and these sample points are propagated through the nonlinear function $$g$$. The UKF tends to be more robust and accurate than the EKF but has higher computation overhead due to the sampling process.
 
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
