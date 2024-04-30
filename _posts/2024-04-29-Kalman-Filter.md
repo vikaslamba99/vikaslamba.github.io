@@ -83,7 +83,7 @@ Then, I run the filter method to trigger the forward algorithm, which iterativel
 s_means, _ = kf.filter(stock_prices)
 ```
 
-Finally, we add moving averages for comparison and plot the result:
+Finally, add moving averages for comparison and plot the result:
 
 ``` py
 # Compare with moving average
@@ -115,6 +115,8 @@ The Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF) are heuristic
 When the system dynamics and observation models are highly nonlinear, the UKF can be an improvement over the EKF. The UKF is based on the unscented transformation, which is a method for computing the statistics of a random variable $$x$$ that undergoes a nonlinear transformation $$(y = g(x))$$. The random variable $$x$$ is sampled using a carefully chosen set of sigma points and these sample points are propagated through the nonlinear function $$g$$. 
 
 The UKF tends to be more robust and accurate than the EKF but has higher computation overhead due to the sampling process.
+
+
 
 > References:
 > 1. Dixon, M. F., Halperin, I., & Bilokon, P. (2020). Machine Learning in Finance. Springer.
