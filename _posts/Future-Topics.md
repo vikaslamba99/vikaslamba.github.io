@@ -28,6 +28,17 @@ permalink: Navigate-to Higher-Alpha
 > 3. Data Curation
 > 4. Data Storage and management
 > 5. Kalman Filter or Linear Quadratic Estimation (LQE)
+Kalman gain
+Fusing multiple estimates
+The Extended Kalman Filter (EKF) and Unscented Kalman Filter (UKF) are heuristic approaches to using Kalman filtering for nonlinear systems.
+UKF. When the system dynamics and observation models are highly nonlinear, the Unscented Kalman Filter (UKF) can be an improvement over the EKF. The UKF is based on the unscented transformation, which is a method for computing the statistics of a random variable x that undergoes a nonlinear transformation (y = д(x)). The random variable x is sampled using a carefully chosen set of sigma points and these sample points are propagated through the nonlinear function д. The UKF tends to be more robust and accurate than the EKF but has higher computation overhead due to the sampling process.
+
+| Left | Left | Left | Left |
+|-------:|:------|-----------|:---------:|
+| Feature | Kalman Filter | Particle Filter| Extended Kalman Filter |
+| Model Linearity | Linear models | Nonlinear models | Nonlinear models |
+| State Estimation | Assumes Gaussian distributions for states | Suitable for arbitrary distributions of states | Assumes Gaussian distributions for states |
+
 
 #### Machine Learning
 > 1. Regression - Linear, Lasso & Ridge - What are the advantages of Ridge & Lasso over Linear? Show graphs, results on same data and code.
