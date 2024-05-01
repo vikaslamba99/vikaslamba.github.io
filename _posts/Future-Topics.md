@@ -64,3 +64,8 @@ The extended Kalman filter (EKF) is the most popular estimation algorithm in pra
 > 2. Portfolio Active Risk Management
 > 3. Quantitative Security Selection
 > 4. Portfolio Risk Management methods and metrics
+
+## Japanese Science
+> 1. Defense shield in shape of a cabin (enclosing the warrior from 3 sides like a bus stop) - shifts the damage and starts repairing the attack damage instantly.
+> 2. Proposal to start harvesting the water, lost by other countries/planets, and currently freely travelling in space.
+> 3. Japanese 🥭 mangoes for all in the meeting.
